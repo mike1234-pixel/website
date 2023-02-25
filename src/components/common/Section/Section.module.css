@@ -1,0 +1,63 @@
+.root,
+.rootAlt {
+  padding: 60px 0;
+  position: relative;
+}
+
+.root {
+  background-color: var(--black);
+}
+
+.rootAlt {
+  background: var(--dark);
+}
+
+.root::after,
+.rootAlt::after {
+  content: "";
+  background: var(--grey);
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: calc(50vw - 600px);
+  height: 1px;
+}
+
+.rootAlt::after {
+  left: auto;
+  right: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.gridAlt {
+  grid-template-columns: 40% 60%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.imageAlt {
+  order: 1;
+}
+
+.text {
+  padding-top: 65px;
+  padding-right: 30px;
+  color: var(--white);
+}
+
+.textAlt {
+  order: 2;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.textAlt h2,
+.textAlt p {
+  text-align: right;
+}
