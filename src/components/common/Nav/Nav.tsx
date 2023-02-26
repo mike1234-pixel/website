@@ -3,8 +3,9 @@ import { useEffect, useState } from "react"
 import { Container } from "../../common/Container"
 import { Link } from "react-router-dom"
 import logo from "../../../assets/the-washington-logo.png"
-import styles from "./Nav.module.css"
+import { BsFacebook, BsInstagram } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
+import styles from "./Nav.module.css"
 
 export const Nav = () => {
   const [navClosed, setNavClosed] = useState<boolean>(true)
@@ -15,9 +16,9 @@ export const Nav = () => {
       setScroll(window.scrollY > 2)
     })
 
-    window.addEventListener("resize", () => {
-      setNavClosed(window.innerWidth >= 768)
-    })
+    // window.addEventListener("resize", () => {
+    //   setNavClosed(window.innerWidth >= 768)
+    // })
   }, [])
 
   return (
@@ -34,15 +35,50 @@ export const Nav = () => {
               styles.list,
               navClosed ? styles.collapsed : styles.expanded
             )}
+            onClick={() => setNavClosed(true)}
           >
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/drinks'>Drinks</Link>
-            <Link to='/events'>Events</Link>
-            <Link to='/contact'>Contact</Link>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/about'>About</Link>
+            </li>
+            <li>
+              <Link to='/drinks'>Drinks</Link>
+            </li>
+            <li>
+              <Link to='/events'>Events</Link>
+            </li>
+            <li>
+              <Link to='/gallery'>Gallery</Link>
+            </li>
+            <li>
+              <Link to='/contact'>Contact</Link>
+            </li>
+            <li>
+              <a
+                href='https://www.facebook.com/washingtonsheffield/about/?ref=page_internal&locale=en_GB'
+                target='_blank'
+              >
+                <BsFacebook />
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.instagram.com/washingtonsheff/'
+                target='_blank'
+              >
+                <BsInstagram />
+              </a>
+            </li>
           </ul>
-
-          <div className={styles.toggle}>
+          <div
+            className={
+              scroll
+                ? classNames(styles.toggle, styles.toggleScroll)
+                : styles.toggle
+            }
+          >
             <Hamburger navClosed={navClosed} setNavClosed={setNavClosed} />
           </div>
         </div>

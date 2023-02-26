@@ -6,11 +6,17 @@ import styles from "./Section.module.css"
 
 interface SectionProps {
   img: string
+  altText: string
   children: ReactNode | ReactNode[]
   altLayout?: boolean
 }
 
-export const Section = ({ img, children, altLayout }: SectionProps) => {
+export const Section = ({
+  img,
+  altText,
+  children,
+  altLayout,
+}: SectionProps) => {
   return (
     <section className={altLayout ? styles.rootAlt : styles.root}>
       <Container>
@@ -34,7 +40,7 @@ export const Section = ({ img, children, altLayout }: SectionProps) => {
             }
           >
             <Fade bottom>
-              <img src={img} />
+              <img src={img} alt={altText} />
             </Fade>
           </div>
         </div>

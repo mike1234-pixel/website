@@ -61,3 +61,33 @@
 .textAlt p {
   text-align: right;
 }
+
+@media (max-width: 767px) {
+  .grid,
+  .gridAlt {
+    grid-template-columns: 100%;
+  }
+
+  .gridAlt .text {
+    order: 1;
+  }
+
+  .gridAlt .img {
+    order: 2;
+  }
+
+  .text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .text,
+  .textAlt {
+    padding: 0;
+  }
+  .textAlt h2,
+  .textAlt p {
+    text-align: left;
+  }
+}

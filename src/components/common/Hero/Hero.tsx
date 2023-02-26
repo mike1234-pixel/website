@@ -1,5 +1,4 @@
 import { Container } from "../Container"
-import Fade from "react-reveal/Fade"
 import styles from "./Hero.module.css"
 
 export const Hero = () => {
@@ -7,16 +6,14 @@ export const Hero = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.text}>
-          <Fade big>
-            <h1 className={styles.title}>Welcome to the Washington</h1>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              quia amet omnis ipsa provident nisi. Aspernatur dolores sint
-              dignissimos ducimus, pariatur dicta maiores porro omnis libero
-              accusamus enim deleniti doloribus.
-            </p>
-          </Fade>
+          <h1 className={styles.title}>Welcome to the Washington</h1>
+          <p>
+            The Washington is the spiritual home of Sheffield's music scene.
+            Through the years they've all passed through; drinking, performing
+            and perhaps even working behind the bar. From the glory years of The
+            Limit when Pulp would meet here, to intimate gigs from Wet Nuns, The
+            Washington has seen it all.
+          </p>
         </div>
       </Container>
       <div className={styles.bgImage}></div>

@@ -1,0 +1,9 @@
+.link {
+  color: var(--action);
+}
+
+.link:hover,
+.link:focus,
+link:active {
+  color: var(--action-dark);
+}

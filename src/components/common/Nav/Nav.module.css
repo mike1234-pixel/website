@@ -40,7 +40,7 @@
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .content {
     flex-direction: column;
   }
@@ -48,7 +48,7 @@
 
 .title {
   font-size: 1.4rem;
-  color: white;
+  color: var(--white);
   margin: 0;
 }
 
@@ -62,32 +62,8 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  color: white;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .list {
-    gap: 0px;
-  }
-}
-
-.navLink {
-  padding: 8px 16px;
-  border-radius: 4px;
-  color: var(--black);
-  text-transform: uppercase;
-}
-
-.navLinkButton {
-  padding: 8px 16px;
-  border-radius: 4px;
-  color: var(--black);
-  background-color: transparent;
-  border: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-family: var(--font-primary);
+  color: var(--white);
+  font-weight: 600;
 }
 
 .active {
@@ -104,7 +80,7 @@
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .collapsed {
     max-height: 0;
     overflow: hidden;
@@ -113,7 +89,7 @@
   .expanded {
     max-height: 100vh;
     height: 100vh;
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
 }
 
@@ -121,4 +97,11 @@
   position: absolute;
   right: 0;
   top: 30px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 767px) {
+  .toggleScroll {
+    top: 20px;
+  }
 }

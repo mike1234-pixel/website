@@ -4,6 +4,7 @@ import { Home } from "./components/pages/Home"
 import { About } from "./components/pages/About"
 import { Drinks } from "./components/pages/Drinks"
 import { Events } from "./components/pages/Events"
+import { Gallery } from "./components/pages/Gallery"
 import { Contact } from "./components/pages/Contact"
 import { NotFound } from "./components/pages/NotFound"
 import { Footer } from "./components/common/Footer"
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/drinks' element={<Drinks />} />
           <Route path='/events' element={<Events />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
