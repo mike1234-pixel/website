@@ -28,17 +28,16 @@
 }
 
 .text {
-  height: 100%;
   position: relative;
-  padding-top: 200px;
+  margin-top: 180px;
+  padding: 20px;
   z-index: 1;
   width: 60%;
-  height: 100vh;
   color: var(--white);
+  background: var(--white);
 }
 
-.text h1,
-.text p {
+.text h1 {
   text-shadow: 2px 2px 0 var(--black), 2px -2px 0 var(--black),
     -2px 2px 0 var(--black), -2px -2px 0 var(--black), 2px 0px 0 var(--black),
     0px 2px 0 var(--black), -2px 0px 0 var(--black), 0px -2px 0 var(--black);
@@ -46,6 +45,7 @@
 
 .text p {
   font-weight: 600;
+  color: var(--dark);
 }
 
 @media (max-width: 767px) {
