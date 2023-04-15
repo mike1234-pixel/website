@@ -1,6 +1,6 @@
 .root {
-  background: var(--dark);
-  color: var(--white);
+  background: var(--bg-secondary);
+  color: var(--dark);
 }
 
 .grid {

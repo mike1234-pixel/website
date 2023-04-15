@@ -12,6 +12,20 @@
   --warning: #a68e3f;
   --action: #0087ff;
   --action-dark: #0066be;
+  /* backgrounds */
+  --bg-primary: linear-gradient(
+    305deg,
+    rgba(254, 254, 254, 1) 47%,
+    rgba(181, 130, 250, 1) 47%,
+    rgba(255, 255, 255, 1) 99%
+  );
+  --bg-secondary: radial-gradient(
+    circle,
+    rgba(169, 135, 255, 1) 0%,
+    rgba(181, 130, 250, 1) 47%,
+    rgba(210, 141, 252, 1) 47%,
+    rgba(255, 255, 255, 1) 99%
+  );
   /* fonts */
   --font-primary: "Plus Jakarta Sans", sans-serif;
   --font-display: "Plus Jakarta Sans", sans-serif;

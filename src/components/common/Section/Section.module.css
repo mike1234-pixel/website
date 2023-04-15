@@ -5,11 +5,11 @@
 }
 
 .root {
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .rootAlt {
-  background: var(--dark);
+  background: var(--bg-primary);
 }
 
 .root::after,
@@ -48,7 +48,7 @@
 .text {
   padding-top: 65px;
   padding-right: 30px;
-  color: var(--white);
+  color: var(--dark);
 }
 
 .textAlt {
@@ -57,9 +57,8 @@
   padding-left: 30px;
 }
 
-.textAlt h2,
 .textAlt p {
-  text-align: right;
+  text-align: justify;
 }
 
 @media (max-width: 767px) {
