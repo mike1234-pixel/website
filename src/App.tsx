@@ -8,11 +8,13 @@ import { Gallery } from "./components/pages/Gallery"
 import { Contact } from "./components/pages/Contact"
 import { NotFound } from "./components/pages/NotFound"
 import { Footer } from "./components/common/Footer"
+import { ScrollToTop } from "./components/common/ScrollToTop"
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />

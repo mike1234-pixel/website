@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.text}>
-          <h1 className={styles.title}>Welcome to the Washington</h1>
+          <h1 className={styles.title}>FE/React Contractor</h1>
           <p>
             The Washington is the spiritual home of Sheffield's music scene.
             Through the years they've all passed through; drinking, performing

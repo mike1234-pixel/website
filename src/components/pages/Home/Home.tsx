@@ -1,8 +1,7 @@
 import { Hero } from "../../common/Hero"
 import { Section } from "../../common/Section"
-import washington2 from "../../../assets/washington-2.jpeg"
-import washington3 from "../../../assets/washington-3.jpeg"
-import washington4 from "../../../assets/washington-4.jpeg"
+import michael2 from "../../../assets/michael-tandy/2.jpg"
+import michael3 from "../../../assets/michael-tandy/3.jpg"
 import { Link } from "react-router-dom"
 import styles from "./Home.module.css"
 
@@ -10,7 +9,7 @@ export const Home = () => {
   return (
     <div className={styles.root}>
       <Hero />
-      <Section img={washington2} altText='the washington beer garden'>
+      <Section img={michael2} altText='the washington beer garden'>
         <h2>About</h2>
         <p>
           We're a little off the beaten track, which is just the way we like
@@ -26,12 +25,8 @@ export const Home = () => {
           </Link>
         </p>
       </Section>
-      <Section
-        img={washington3}
-        altText='guests outside the washington'
-        altLayout
-      >
-        <h2>Drinks</h2>
+      <Section img={michael3} altText='guests outside the washington' altLayout>
+        <h2>Experience</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
           rerum excepturi assumenda illum in enim! Illo dignissimos ab repellat
@@ -42,13 +37,13 @@ export const Home = () => {
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
         <p>
-          <Link to='/drinks' className={styles.link}>
-            See our drinks menu...
+          <Link to='/experience' className={styles.link}>
+            View my experience...
           </Link>
         </p>
       </Section>
-      <Section img={washington4} altText='live music at the washington'>
-        <h2>Events</h2>
+      <Section img={michael2} altText='live music at the washington'>
+        <h2>Projects</h2>
         <p>
           Each week we have cutting edge bands and left of center DJs during the
           week and good times party sounds at the weekend 'til three in the
@@ -58,8 +53,8 @@ export const Home = () => {
           find them all in The Washington.
         </p>
         <p>
-          <Link to='/events' className={styles.link}>
-            See our events calendar...
+          <Link to='/projects' className={styles.link}>
+            Watch my demo...
           </Link>
         </p>
       </Section>

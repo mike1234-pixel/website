@@ -2,7 +2,6 @@ import classNames from "classnames"
 import { useEffect, useState } from "react"
 import { Container } from "../../common/Container"
 import { Link } from "react-router-dom"
-import logo from "../../../assets/the-washington-logo.png"
 import { BsFacebook, BsInstagram } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import styles from "./Nav.module.css"
@@ -27,7 +26,8 @@ export const Nav = () => {
         <div className={styles.content}>
           <div className={styles.logo}>
             <Link to='/'>
-              <img src={logo} alt='the washington pub logo' />
+              <p>Michael Tandy</p>
+              <p>Professional Portfolio</p>
             </Link>
           </div>
           <ul
@@ -41,19 +41,13 @@ export const Nav = () => {
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/experience'>Experience</Link>
             </li>
             <li>
-              <Link to='/drinks'>Drinks</Link>
+              <Link to='/projects'>Projects</Link>
             </li>
             <li>
-              <Link to='/events'>Events</Link>
-            </li>
-            <li>
-              <Link to='/gallery'>Gallery</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/skills'>Skills</Link>
             </li>
             <li>
               <a
