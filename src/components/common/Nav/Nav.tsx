@@ -18,7 +18,7 @@ export const Nav = () => {
 
     // window.addEventListener("resize", () => {
     //   setNavClosed(window.innerWidth >= 768)
-    // })
+    // })dd
   }, [])
 
   return (
