@@ -33,14 +33,12 @@
   padding: 20px;
   z-index: 1;
   width: 60%;
-  color: var(--white);
+  color: var(--purple-1);
   background: var(--white);
 }
 
 .text h1 {
-  text-shadow: 2px 2px 0 var(--black), 2px -2px 0 var(--black),
-    -2px 2px 0 var(--black), -2px -2px 0 var(--black), 2px 0px 0 var(--black),
-    0px 2px 0 var(--black), -2px 0px 0 var(--black), 0px -2px 0 var(--black);
+  color: var(--dark);
 }
 
 .text p {

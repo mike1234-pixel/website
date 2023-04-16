@@ -21,7 +21,7 @@
 .hamburger.isActive .hamburgerInner,
 .hamburger.isActive .hamburgerInner::before,
 .hamburger.isActive .hamburgerInner::after {
-  background-color: var(--white);
+  background-color: var(--dark);
 }
 
 @media (min-width: 768px) {
@@ -47,7 +47,7 @@
 .hamburgerInner::after {
   width: 15px;
   height: 1px;
-  background-color: var(--white);
+  background-color: var(--dark);
   position: absolute;
 }
 .hamburgerInner::before,

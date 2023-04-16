@@ -15,9 +15,9 @@ export const Nav = () => {
       setScroll(window.scrollY > 2)
     })
 
-    // window.addEventListener("resize", () => {
-    //   setNavClosed(window.innerWidth >= 768)
-    // })dd
+    if (window.innerWidth >= 767) {
+      setNavClosed(true)
+    }
   }, [])
 
   return (

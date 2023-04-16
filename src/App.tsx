@@ -1,11 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Nav } from "./components/common/Nav"
 import { Home } from "./components/pages/Home"
-import { About } from "./components/pages/About"
-import { Drinks } from "./components/pages/Drinks"
-import { Events } from "./components/pages/Events"
-import { Gallery } from "./components/pages/Gallery"
-import { Contact } from "./components/pages/Contact"
+import { Skills } from "./components/pages/Skills"
+import { Projects } from "./components/pages/Projects"
 import { NotFound } from "./components/pages/NotFound"
 import { Footer } from "./components/common/Footer"
 import { ScrollToTop } from "./components/common/ScrollToTop"
@@ -18,11 +15,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/drinks' element={<Drinks />} />
-          <Route path='/events' element={<Events />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />

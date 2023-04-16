@@ -4,6 +4,7 @@
 
 .link:hover,
 .link:focus,
-link:active {
+.link:active {
   color: var(--action-dark);
+  text-decoration: underline;
 }

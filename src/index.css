@@ -12,11 +12,13 @@
   --warning: #a68e3f;
   --action: #0087ff;
   --action-dark: #0066be;
+  --purple-1: #a987ff;
   /* backgrounds */
   --bg-primary: linear-gradient(
-    305deg,
-    rgba(254, 254, 254, 1) 47%,
-    rgba(181, 130, 250, 1) 47%,
+    232deg,
+    rgba(169, 135, 255, 1) 0%,
+    rgba(210, 141, 252, 1) 65%,
+    rgba(181, 130, 250, 1) 65%,
     rgba(255, 255, 255, 1) 99%
   );
   --bg-secondary: radial-gradient(

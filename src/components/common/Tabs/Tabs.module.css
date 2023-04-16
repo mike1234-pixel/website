@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tabsHeader {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--white);
+  flex-grow: 1;
+}
+
+.tab {
+  padding: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 2px solid var(--purple-1);
+  margin-top: -2px;
+}
+
+.activeTab {
+  background: var(--bg-secondary);
+  border-bottom: none;
+  border-top: 2px solid var(--purple-1);
+}
+
+.tabsContent {
+  flex-grow: 1;
+  padding: 60px 20px;
+}
+
+.tabsContent ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
