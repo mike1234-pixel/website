@@ -43,6 +43,7 @@
 
 .image img {
   width: 100%;
+  border: 6px outset var(--purple-2);
 }
 
 .imageAlt {

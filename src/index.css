@@ -13,6 +13,7 @@
   --action: #0087ff;
   --action-dark: #0066be;
   --purple-1: #a987ff;
+  --purple-2: #cebbff;
   /* backgrounds */
   --bg-primary: linear-gradient(
     232deg,
@@ -30,7 +31,6 @@
   );
   /* fonts */
   --font-primary: "Plus Jakarta Sans", sans-serif;
-  --font-display: "Plus Jakarta Sans", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -190,13 +190,13 @@ h6 {
 h1 {
   font-size: 3rem;
   line-height: 3rem;
-  font-family: var(--font-display);
+  font-family: var(--font-primary);
 }
 
 h2 {
   font-size: 2.6rem;
   line-height: 2.6rem;
-  font-family: var(--font-display);
+  font-family: var(--font-primary);
 }
 
 code {
