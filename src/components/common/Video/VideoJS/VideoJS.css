@@ -11,6 +11,14 @@
   background: rgba(206, 187, 255, 0.6);
 }
 
+.video-js .vjs-big-play-button {
+  cursor: url("../../../../assets//cursors/cursor-pointer.png"), auto;
+}
+
+.video-js .vjs-big-play-button:active {
+  cursor: url("../../../../assets//cursors/cursor-pointer-small.png"), auto;
+}
+
 .video-js:hover .vjs-big-play-button,
 .video-js:focus .vjs-big-play-button,
 .video-js:active .vjs-big-play-button {

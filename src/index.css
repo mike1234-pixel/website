@@ -31,12 +31,21 @@
   );
   /* fonts */
   --font-primary: "Plus Jakarta Sans", sans-serif;
-  cursor: url("./assets//cursors/cursor-default.png"), auto;
+  cursor: url("./assets/cursors/cursor-default.png"), auto;
+}
+
+:root:active {
+  cursor: url("./assets/cursors/cursor-default-small.png"), auto;
 }
 
 a,
 button {
-  cursor: url("./assets//cursors/cursor-pointer.png"), auto;
+  cursor: url("./assets/cursors/cursor-pointer.png"), auto;
+}
+
+a:active,
+button:active {
+  cursor: url("./assets/cursors/cursor-pointer-small.png"), auto;
 }
 
 ::selection {
