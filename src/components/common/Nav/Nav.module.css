@@ -30,11 +30,13 @@
 
 .logo p:last-of-type {
   font-size: 2rem;
+  line-height: 2rem;
 }
 
-.logo img {
-  width: 120px;
-  transition: all 0.3s;
+@media (max-width: 767px) {
+  .logo {
+    max-width: 250px;
+  }
 }
 
 .navScroll {
@@ -55,6 +57,7 @@
 @media (max-width: 767px) {
   .content {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -76,6 +79,12 @@
   gap: 30px;
   color: var(--dark);
   font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .list {
+    width: 100%;
+  }
 }
 
 .active {

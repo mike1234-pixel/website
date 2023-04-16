@@ -1,3 +1,8 @@
 .root {
   padding-top: 200px;
 }
+
+.root h1 {
+  border-bottom: 1px dashed var(--dark);
+  margin-bottom: 80px;
+}
