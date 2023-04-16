@@ -14,31 +14,23 @@ export const Footer = () => {
           <div className={styles.grid}>
             <div>
               <h6>
-                Where it's at <MdOutlineLocationOn />
+                Where I'm based <MdOutlineLocationOn />
               </h6>
-              <address>
-                The Washington
-                <br />
-                79 Fitzwilliam Street
-                <br />
-                Sheffield
-                <br />
-                S14JP
-              </address>
+              <p>UK</p>
             </div>
             <div>
               <h6>
-                Give us a bell <BsTelephone />
+                Call, text or Whatsapp <BsTelephone />
               </h6>
               <p>
-                <a href='tel:0114 2761960'>0114 2761960</a>
+                <a href='tel:07769 583 616'>07769 583 616</a>
               </p>
               <h6>
-                Drop us an email <MdOutlineEmail />
+                Email <MdOutlineEmail />
               </h6>
               <p>
-                <a href='mailto:info@thewashington.pub'>
-                  info@thewashington.pub
+                <a href='mailto:miketandy@protonmail.com'>
+                  miketandy@protonmail.com
                 </a>
               </p>
             </div>
