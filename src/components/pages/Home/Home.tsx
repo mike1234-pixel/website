@@ -45,15 +45,23 @@ export const Home = () => {
       </Section>
       <Section video={jobsprintDemo}>
         <h2>Projects</h2>
+        <p>JobSprint (2023) is my latest personal project that uses React.</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-          rerum excepturi assumenda illum in enim! Illo dignissimos ab repellat
-          aut ratione, necessitatibus voluptate at repellendus repudiandae
-          dolore amet iusto provident?
+          Hvaing built various management consoles with React in commercial
+          settings, I decided to use those skills to build my own.
+        </p>
+        <p>
+          JobSprint uses ReactQuery to fetch and mutate data from a
+          GoLang/Postgres backend so that users are able to efficiently organise
+          their job search.
+        </p>
+        <p>
+          I have recorded a demo for the project and the repositories can be
+          found on Github.
         </p>
         <p>
           <Link to='/projects' className={styles.link}>
-            Watch my demo...
+            Watch JobSprint demo...
           </Link>
         </p>
       </Section>
