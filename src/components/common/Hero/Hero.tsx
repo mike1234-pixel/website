@@ -15,6 +15,7 @@ export const Hero = () => {
             I have a broad range of experience in the software industry, having
             worked at web agencies, startups, and big companies.
           </p>
+          <p>CONTRIBUTION, COLLABORATION</p>
         </div>
       </Container>
       <div className={styles.bgImage}></div>

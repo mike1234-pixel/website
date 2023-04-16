@@ -38,7 +38,7 @@ const tabs: Tab[] = [
     ),
   },
   {
-    label: "Workflow",
+    label: "Workflow, Agile & Collaboration",
     content: (
       <ul>
         <li>Agile</li>
@@ -47,6 +47,7 @@ const tabs: Tab[] = [
         <li>Jira</li>
         <li>Azure Devops</li>
         <li>Git / Github</li>
+        <li>Peer reviewing pull requests</li>
       </ul>
     ),
   },
