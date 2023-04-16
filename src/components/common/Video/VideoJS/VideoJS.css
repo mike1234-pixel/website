@@ -1,0 +1,7 @@
+.video-js .vjs-big-play-button {
+  background: var(--bg-secondary);
+}
+
+.video-js .vjs-control-bar {
+  background: rgba(206, 187, 255, 0.6);
+}

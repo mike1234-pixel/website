@@ -3,12 +3,14 @@ import { ReactNode } from "react"
 import { Container } from "../Container"
 import classNames from "classnames"
 import styles from "./Section.module.css"
+import { Video } from "../Video"
 
 interface SectionProps {
-  img: string
-  altText: string
+  img?: string
+  altText?: string
   children: ReactNode | ReactNode[]
   altLayout?: boolean
+  video?: string
 }
 
 export const Section = ({
@@ -16,6 +18,7 @@ export const Section = ({
   altText,
   children,
   altLayout,
+  video,
 }: SectionProps) => {
   return (
     <section className={altLayout ? styles.rootAlt : styles.root}>
@@ -40,7 +43,7 @@ export const Section = ({
             }
           >
             <Fade bottom>
-              <img src={img} alt={altText} />
+              {video ? <Video src={video} /> : <img src={img} alt={altText} />}
             </Fade>
           </div>
         </div>
