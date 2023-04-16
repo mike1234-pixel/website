@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import { BsFacebook, BsInstagram } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import styles from "./Nav.module.css"
+import { LinkItem } from "./LinkItem"
 
 export const Nav = () => {
   const [navClosed, setNavClosed] = useState<boolean>(true)
@@ -37,18 +38,10 @@ export const Nav = () => {
             )}
             onClick={() => setNavClosed(true)}
           >
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/experience'>Experience</Link>
-            </li>
-            <li>
-              <Link to='/projects'>Projects</Link>
-            </li>
-            <li>
-              <Link to='/skills'>Skills</Link>
-            </li>
+            <LinkItem to='/'>Home</LinkItem>
+            <LinkItem to='/experience'>Experience</LinkItem>
+            <LinkItem to='/projects'>Projects</LinkItem>
+            <LinkItem to='/skills'>Skills</LinkItem>
             <li>
               <a
                 href='https://www.facebook.com/washingtonsheffield/about/?ref=page_internal&locale=en_GB'
