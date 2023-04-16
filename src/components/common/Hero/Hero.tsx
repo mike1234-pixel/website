@@ -6,13 +6,14 @@ export const Hero = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.text}>
-          <h1 className={styles.title}>FE/React Contractor</h1>
+          <h1 className={styles.title}>Frontend Contractor</h1>
           <p>
-            The Washington is the spiritual home of Sheffield's music scene.
-            Through the years they've all passed through; drinking, performing
-            and perhaps even working behind the bar. From the glory years of The
-            Limit when Pulp would meet here, to intimate gigs from Wet Nuns, The
-            Washington has seen it all.
+            I'm a Frontend Sofware Engineer specialising in{" "}
+            <strong>React.js.</strong>
+          </p>
+          <p>
+            I have a broad range of experience in the software industry, having
+            worked at web agencies, startups, and big companies.
           </p>
         </div>
       </Container>

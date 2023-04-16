@@ -21,11 +21,6 @@ export const Home = () => {
           nostrum provident eius rem consequatur? Error, impedit adipisci eum
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
-        <p>
-          <Link to='/about' className={styles.link}>
-            Find out more about us...
-          </Link>
-        </p>
       </Section>
       <Section
         img={michael3}

@@ -1,10 +1,11 @@
 import { Container } from "../Container"
 import { CopyFooter } from "../CopyFooter"
 import { MdOutlineLocationOn, MdOutlineEmail } from "react-icons/md"
-import { BsTelephone, BsHandbag } from "react-icons/bs"
+import { BsTelephone, BsHandbag, BsGithub, BsLinkedin } from "react-icons/bs"
 import { GiGuitarBassHead } from "react-icons/gi"
-import { TiBeer } from "react-icons/ti"
 import styles from "./Footer.module.css"
+import { LinkItem } from "../Nav/LinkItem"
+import { SocialLink } from "../Nav/SocialLink"
 
 export const Footer = () => {
   return (
@@ -13,10 +14,13 @@ export const Footer = () => {
         <Container>
           <div className={styles.grid}>
             <div>
-              <h6>
-                Where I'm based <MdOutlineLocationOn />
-              </h6>
-              <p>UK</p>
+              <h6>Site Links</h6>
+              <ul className={styles.list}>
+                <LinkItem to='/'>Home</LinkItem>
+                <LinkItem to='/experience'>Experience</LinkItem>
+                <LinkItem to='/projects'>Projects</LinkItem>
+                <LinkItem to='/skills'>Skills</LinkItem>
+              </ul>
             </div>
             <div>
               <h6>
@@ -36,56 +40,21 @@ export const Footer = () => {
             </div>
             <div>
               <h6>
-                All lost property enquiries <BsHandbag />
+                Location <MdOutlineLocationOn />
               </h6>
-              <p>Please call the pub during opening hours</p>
-              <h6>
-                Band/DJ booking enquiries <GiGuitarBassHead />
-              </h6>
-              <p>
-                Email{" "}
-                <a href='mailto:bookings@thewashington.pub'>
-                  bookings@thewashington.pub
-                </a>
-              </p>
+              <p className={styles.location}>🇬🇧</p>
             </div>
             <div>
-              <h6>
-                Opening times <TiBeer />
-              </h6>
-              <div className={styles.openingTimes}>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>Monday</td>
-                      <td>18:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Tuesday</td>
-                      <td>18:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Wednesday</td>
-                      <td>18:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Thursday</td>
-                      <td>18:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Friday</td>
-                      <td>16:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Saturday</td>
-                      <td>14:00 - 03:00</td>
-                    </tr>
-                    <tr>
-                      <td>Sunday</td>
-                      <td>16:00 - 01:00</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <h6>Social Links</h6>
+              <div className={styles.list}>
+                <ul className={styles.list}>
+                  <SocialLink to='https://github.com/mike1234-pixel'>
+                    <BsGithub /> Github
+                  </SocialLink>
+                  <SocialLink to='https://www.linkedin.com/in/michael-tandy-1367b8234/'>
+                    <BsLinkedin /> LinkedIn
+                  </SocialLink>
+                </ul>
               </div>
             </div>
           </div>

@@ -6,6 +6,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import styles from "./Nav.module.css"
 import { LinkItem } from "./LinkItem"
+import { SocialLink } from "./SocialLink"
 
 export const Nav = () => {
   const [navClosed, setNavClosed] = useState<boolean>(true)
@@ -44,24 +45,12 @@ export const Nav = () => {
             <LinkItem to='/experience'>Experience</LinkItem>
             <LinkItem to='/projects'>Projects</LinkItem>
             <LinkItem to='/skills'>Skills</LinkItem>
-            <li>
-              <a
-                href='https://github.com/mike1234-pixel'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <BsGithub />
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://www.linkedin.com/in/michael-tandy-1367b8234/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <BsLinkedin />
-              </a>
-            </li>
+            <SocialLink to='https://github.com/mike1234-pixel'>
+              <BsGithub />
+            </SocialLink>
+            <SocialLink to='https://www.linkedin.com/in/michael-tandy-1367b8234/'>
+              <BsLinkedin />
+            </SocialLink>
           </ul>
           <div className={styles.toggle}>
             <Hamburger navClosed={navClosed} setNavClosed={setNavClosed} />
