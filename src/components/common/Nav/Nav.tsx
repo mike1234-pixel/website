@@ -2,7 +2,7 @@ import classNames from "classnames"
 import { useEffect, useState } from "react"
 import { Container } from "../../common/Container"
 import { Link } from "react-router-dom"
-import { BsFacebook, BsInstagram } from "react-icons/bs"
+import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import styles from "./Nav.module.css"
 import { LinkItem } from "./LinkItem"
@@ -46,20 +46,20 @@ export const Nav = () => {
             <LinkItem to='/skills'>Skills</LinkItem>
             <li>
               <a
-                href='https://www.facebook.com/washingtonsheffield/about/?ref=page_internal&locale=en_GB'
+                href='https://github.com/mike1234-pixel'
                 target='_blank'
                 rel='noreferrer'
               >
-                <BsFacebook />
+                <BsGithub />
               </a>
             </li>
             <li>
               <a
-                href='https://www.instagram.com/washingtonsheff/'
+                href='https://www.linkedin.com/in/michael-tandy-1367b8234/'
                 target='_blank'
                 rel='noreferrer'
               >
-                <BsInstagram />
+                <BsLinkedin />
               </a>
             </li>
           </ul>

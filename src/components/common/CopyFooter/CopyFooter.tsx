@@ -8,7 +8,7 @@ export const CopyFooter = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.content}>
-          <span>© Halcyon Daze Ltd {thisYear}</span>
+          <span>Design by Michael Tandy {thisYear}</span>
         </div>
       </Container>
     </section>
