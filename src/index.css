@@ -31,6 +31,18 @@
   );
   /* fonts */
   --font-primary: "Plus Jakarta Sans", sans-serif;
+  cursor: url("./assets//cursors/cursor-default.png"), auto;
+}
+
+a,
+button {
+  cursor: url("./assets//cursors/cursor-pointer.png"), auto;
+}
+
+::selection {
+  background-color: rgba(169, 135, 255, 0.6);
+  color: #fff; /* This is the text color that appears when you select something */
+  cursor: default; /* This ensures that the cursor remains the same shape */
 }
 
 body::-webkit-scrollbar {

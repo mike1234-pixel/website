@@ -23,7 +23,7 @@ export const Tabs = ({ tabs, defaultTab = 0 }: Props) => {
     <div className={styles.root}>
       <div className={styles.tabsHeader}>
         {tabs.map((tab, index) => (
-          <div
+          <button
             key={index}
             className={
               activeTab === index
@@ -33,7 +33,7 @@ export const Tabs = ({ tabs, defaultTab = 0 }: Props) => {
             onClick={() => handleTabClick(index)}
           >
             {tab.label}
-          </div>
+          </button>
         ))}
       </div>
       <div className={styles.tabsContent}>{tabs[activeTab].content}</div>
