@@ -40,7 +40,7 @@
 }
 
 .navScroll {
-  padding: 8px 0;
+  padding: 8px 0 12px;
 }
 
 .navScroll .logo img {
@@ -119,10 +119,4 @@
   right: 0;
   top: 30px;
   transition: all 0.3s;
-}
-
-@media (max-width: 767px) {
-  .toggleScroll {
-    top: 20px;
-  }
 }

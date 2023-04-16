@@ -63,13 +63,7 @@ export const Nav = () => {
               </a>
             </li>
           </ul>
-          <div
-            className={
-              scroll
-                ? classNames(styles.toggle, styles.toggleScroll)
-                : styles.toggle
-            }
-          >
+          <div className={styles.toggle}>
             <Hamburger navClosed={navClosed} setNavClosed={setNavClosed} />
           </div>
         </div>
