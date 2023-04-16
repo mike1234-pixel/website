@@ -16,9 +16,11 @@ export const Nav = () => {
       setScroll(window.scrollY > 2)
     })
 
-    if (window.innerWidth >= 767) {
-      setNavClosed(true)
-    }
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 767) {
+        setNavClosed(true)
+      }
+    })
   }, [])
 
   return (
@@ -46,6 +48,7 @@ export const Nav = () => {
               <a
                 href='https://www.facebook.com/washingtonsheffield/about/?ref=page_internal&locale=en_GB'
                 target='_blank'
+                rel='noreferrer'
               >
                 <BsFacebook />
               </a>
@@ -54,6 +57,7 @@ export const Nav = () => {
               <a
                 href='https://www.instagram.com/washingtonsheff/'
                 target='_blank'
+                rel='noreferrer'
               >
                 <BsInstagram />
               </a>
