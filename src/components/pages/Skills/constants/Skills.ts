@@ -1,7 +1,10 @@
 export const languages = {
   label: "Languages",
   content: [
-    { title: "HTML", info: "lorem html" },
+    {
+      title: "HTML",
+      info: "lorem dfs f dfs dfs dfs dfs dfs dfs dfs  dsf dfs dsf dfs dfs dsf dsf dsf dsf dsf dsf dsf dfs dfs dfs dsf dfs dsf df dfs sd fds dfs dfdfs ds fdsf dsf dsf dsf dfs dfs sdf",
+    },
     { title: "CSS", info: "lorem css" },
     { title: "JavaScript", info: "lorem js" },
     { title: "TypeScript", info: "lorem ts" },
