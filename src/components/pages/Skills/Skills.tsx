@@ -1,7 +1,7 @@
 import { Container } from "../../common/Container"
 import { Tabs } from "../../common/Tabs"
 import { SkillsList } from "./SkillsList"
-import { skills } from "./constants"
+import { skills } from "../../../data/skills"
 import styles from "./Skills.module.css"
 import { PageHeading } from "../../common/PageHeading"
 
