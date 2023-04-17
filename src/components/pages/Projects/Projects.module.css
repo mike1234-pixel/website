@@ -1,8 +1,40 @@
 .root {
-  padding: 200px 0 120px;
+  padding: 160px 0 120px;
 }
 
 .root h1 {
   border-bottom: 1px dashed var(--dark);
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+}
+
+.root h2 {
+  margin-bottom: 30px;
+}
+
+.root h3 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.mainProject {
+  padding: 30px;
+  background: var(--bg-primary);
+}
+
+.mainProjectDescription {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  text-align: justify;
+}
+
+.technologies {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.technologies li {
+  flex-grow: 1;
 }

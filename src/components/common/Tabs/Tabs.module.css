@@ -31,11 +31,5 @@
 .tabsContent {
   flex-grow: 1;
   padding: 60px 20px;
-}
-
-.tabsContent ul {
   display: flex;
-  gap: 30px;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }

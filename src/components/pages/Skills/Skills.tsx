@@ -1,55 +1,41 @@
 import { Container } from "../../common/Container"
 import { Tabs } from "../../common/Tabs"
 import { Tab } from "../../common/Tabs/Tabs"
+import { SkillsList } from "./SkillsList"
 import styles from "./Skills.module.css"
+import {
+  cssLibraries,
+  devops,
+  jsLibraries,
+  languages,
+  testing,
+  workflow,
+} from "./constants"
 
 const tabs: Tab[] = [
   {
     label: "Languages",
-    content: (
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-      </ul>
-    ),
+    content: <SkillsList skills={languages} />,
   },
   {
     label: "CSS Libraries, Preprocessors, Methodologies",
-    content: (
-      <ul>
-        <li>MUI</li>
-        <li>Ant Design</li>
-        <li>Bootstrap</li>
-        <li>Tailwind</li>
-        <li>BEM</li>
-        <li>Sass/SCSS</li>
-      </ul>
-    ),
+    content: <SkillsList skills={cssLibraries} />,
   },
   {
     label: "JavaScript Libraries",
-    content: (
-      <ul>
-        <li>React</li>
-        <li>jQuery</li>
-      </ul>
-    ),
+    content: <SkillsList skills={jsLibraries} />,
   },
   {
     label: "Workflow, Agile & Collaboration",
-    content: (
-      <ul>
-        <li>Agile</li>
-        <li>Scrum</li>
-        <li>Kanban</li>
-        <li>Jira</li>
-        <li>Azure Devops</li>
-        <li>Git / Github</li>
-        <li>Peer reviewing pull requests</li>
-      </ul>
-    ),
+    content: <SkillsList skills={workflow} />,
+  },
+  {
+    label: "Automated Testing",
+    content: <SkillsList skills={testing} />,
+  },
+  {
+    label: "Devops",
+    content: <SkillsList skills={devops} />,
   },
 ]
 
@@ -58,6 +44,7 @@ export const Skills = () => {
     <div className={styles.root}>
       <Container>
         <h1>Skills</h1>
+        <p>hover a skill for a full description of my experience with it</p>
         <Tabs tabs={tabs} />
       </Container>
     </div>

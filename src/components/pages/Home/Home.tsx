@@ -47,11 +47,11 @@ export const Home = () => {
         <h2>Projects</h2>
         <p>JobSprint (2023) is my latest personal project that uses React.</p>
         <p>
-          Hvaing built various management consoles with React in commercial
+          Having built various management consoles with React in commercial
           settings, I decided to use those skills to build my own.
         </p>
         <p>
-          JobSprint uses ReactQuery to fetch and mutate data from a
+          JobSprint uses React Query to fetch and mutate data from a
           GoLang/Postgres backend so that users are able to efficiently organise
           their job search.
         </p>

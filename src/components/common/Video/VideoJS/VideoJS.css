@@ -11,11 +11,25 @@
   background: rgba(206, 187, 255, 0.6);
 }
 
-.video-js .vjs-big-play-button {
+.video-js .vjs-big-play-button,
+.video-js .vjs-play-control,
+.video-js .vjs-mute-control,
+.video-js .vjs-volume-control,
+.video-js .vjs-progress-control,
+.video-js .vjs-slider,
+.video-js .vjs-picture-in-picture-control,
+.video-js .vjs-fullscreen-control {
   cursor: url("../../../../assets//cursors/cursor-pointer.png"), auto;
 }
 
-.video-js .vjs-big-play-button:active {
+.video-js .vjs-big-play-button:active,
+.video-js .vjs-play-control:active,
+.video-js .vjs-mute-control:active,
+.video-js .vjs-volume-control:active,
+.video-js .vjs-progress-control:active,
+.video-js .vjs-slider:active,
+.video-js .vjs-picture-in-picture-control:active,
+.video-js .vjs-fullscreen-control:active {
   cursor: url("../../../../assets//cursors/cursor-pointer-small.png"), auto;
 }
 
