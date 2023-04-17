@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--dark);
+  color: var(--white);
+  padding: 20px;
+}
+
+.root:hover .tooltip {
+  display: block;
+}
+
+.tooltip p {
+  margin-bottom: 0;
+}

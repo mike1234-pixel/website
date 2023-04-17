@@ -47,6 +47,7 @@ export const Projects = () => {
               </p>
             </div>
             <div>
+              <h3>Demo</h3>
               <Video src={jobsprintDemo} />
             </div>
             <div>

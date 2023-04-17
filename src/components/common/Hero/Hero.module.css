@@ -38,6 +38,8 @@
   color: var(--purple-1);
   background: var(--white);
   margin-left: -20px;
+  border: 6px outset var(--purple-2);
+  border-radius: 3px;
 }
 
 .text h1 {

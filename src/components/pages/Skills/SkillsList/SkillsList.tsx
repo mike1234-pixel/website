@@ -1,8 +1,13 @@
-import { Badge } from "../../../common/Badge"
+import { InfoBadge } from "../../../common/InfoBadge"
 import styles from "./SkillsList.module.css"
 
+interface Skill {
+  title: string
+  info: string
+}
+
 interface Props {
-  skills: string[]
+  skills: Skill[]
 }
 
 export const SkillsList = ({ skills }: Props) => {
@@ -11,7 +16,7 @@ export const SkillsList = ({ skills }: Props) => {
       {skills.map((skill, index) => {
         return (
           <li key={index}>
-            <Badge index={index}>{skill}</Badge>
+            <InfoBadge title={skill.title} info={skill.info} index={index} />
           </li>
         )
       })}
