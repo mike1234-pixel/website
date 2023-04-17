@@ -3,6 +3,11 @@
 }
 
 .root h1 {
-  border-bottom: 1px dashed var(--dark);
+  border-bottom: 3px dashed #ff89fa;
   margin-bottom: 40px;
+  color: var(--dark);
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }

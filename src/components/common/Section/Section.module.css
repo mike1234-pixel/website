@@ -19,7 +19,7 @@
 .root::after,
 .rootAlt::after {
   content: "";
-  background: var(--grey);
+  background: var(--dark);
   position: absolute;
   top: 150px;
   left: 0;
@@ -44,6 +44,7 @@
 .image img {
   width: 100%;
   border: 6px outset var(--purple-2);
+  border-radius: 3px;
 }
 
 .imageAlt {

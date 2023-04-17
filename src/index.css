@@ -14,6 +14,7 @@
   --action-dark: #0066be;
   --purple-1: #a987ff;
   --purple-2: #cebbff;
+  --purple-3: #6e2cb5;
   /* backgrounds */
   --bg-primary: linear-gradient(
     232deg,
@@ -28,6 +29,11 @@
     rgba(181, 130, 250, 1) 47%,
     rgba(210, 141, 252, 1) 47%,
     rgba(255, 255, 255, 1) 99%
+  );
+  --text-gradient: linear-gradient(
+    180deg,
+    rgba(188, 0, 255, 1) 0%,
+    rgba(255, 137, 250, 1) 77%
   );
   /* badge colors */
   --badge-1-bg: linear-gradient(

@@ -4,7 +4,7 @@ import jobsprintDemo from "../../../assets/video/jobsprint-demo.mp4"
 import styles from "./Projects.module.css"
 import { Badge } from "../../common/Badge"
 
-const badges: string[] = [
+const badges = [
   "React",
   "TypeScript",
   "React Query",
@@ -29,11 +29,12 @@ export const Projects = () => {
           <div className={styles.mainProjectDescription}>
             <div>
               <h3>Description</h3>
-              <p>My latest personal project that uses React.</p>
+              <p>
+                JobSprint is my most recent personal project that uses React.
+              </p>
               <p>
                 Having built various management consoles with React in
-                commercial settings, I decided to use those skills to build my
-                own.
+                commercial settings; I used those skills to build my own.
               </p>
               <p>
                 JobSprint uses React Query to fetch and mutate data from a
@@ -61,7 +62,7 @@ export const Projects = () => {
               </ul>
             </div>
             <div>
-              <h3>Repos</h3>
+              <h3>Repositories</h3>
               <p>Client</p>
               <p>Backend</p>
             </div>

@@ -45,10 +45,12 @@ export const Home = () => {
       </Section>
       <Section video={jobsprintDemo}>
         <h2>Projects</h2>
-        <p>JobSprint (2023) is my latest personal project that uses React.</p>
+        <p>
+          JobSprint (2023) is my most recent personal project that uses React.
+        </p>
         <p>
           Having built various management consoles with React in commercial
-          settings, I decided to use those skills to build my own.
+          settings; I used those skills to build my own.
         </p>
         <p>
           JobSprint uses React Query to fetch and mutate data from a

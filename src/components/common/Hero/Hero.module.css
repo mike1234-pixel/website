@@ -7,7 +7,7 @@
 
 .root::after {
   content: "";
-  background: var(--grey);
+  background: var(--dark);
   position: absolute;
   top: 290px;
   left: 0;
@@ -42,6 +42,10 @@
 
 .text h1 {
   color: var(--dark);
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 
 .text p {
