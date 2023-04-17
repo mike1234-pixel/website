@@ -1,11 +1,10 @@
 import { Container } from "../Container"
 import { CopyFooter } from "../CopyFooter"
 import { MdOutlineLocationOn, MdOutlineEmail } from "react-icons/md"
-import { BsTelephone, BsHandbag, BsGithub, BsLinkedin } from "react-icons/bs"
-import { GiGuitarBassHead } from "react-icons/gi"
-import styles from "./Footer.module.css"
+import { BsTelephone, BsGithub, BsLinkedin } from "react-icons/bs"
 import { LinkItem } from "../Nav/LinkItem"
 import { SocialLink } from "../Nav/SocialLink"
+import styles from "./Footer.module.css"
 
 export const Footer = () => {
   return (

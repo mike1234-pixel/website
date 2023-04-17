@@ -2,17 +2,6 @@
   padding: 160px 0 120px;
 }
 
-.root h1 {
-  border-bottom: 3px dashed #ff89fa;
-  padding-bottom: 8px;
-  margin-bottom: 40px;
-  color: var(--dark);
-  background: var(--text-gradient);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 900;
-}
-
 .root h2 {
   margin-bottom: 30px;
 }
@@ -34,6 +23,12 @@
   text-align: justify;
 }
 
+@media (max-width: 991px) {
+  .mainProjectDescription {
+    grid-template-columns: 1fr;
+  }
+}
+
 .technologies {
   display: flex;
   gap: 30px;
@@ -43,4 +38,17 @@
 
 .technologies li {
   flex-grow: 1;
+}
+
+.link {
+  color: var(--action);
+  font-size: 1.6rem;
+  text-shadow: 0 0 1px blue;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--action-dark);
+  text-decoration: underline;
 }

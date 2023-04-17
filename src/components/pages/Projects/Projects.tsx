@@ -1,8 +1,9 @@
 import { Container } from "../../common/Container"
 import { Video } from "../../common/Video"
+import { Badge } from "../../common/Badge"
+import { PageHeading } from "../../common/PageHeading"
 import jobsprintDemo from "../../../assets/video/jobsprint-demo.mp4"
 import styles from "./Projects.module.css"
-import { Badge } from "../../common/Badge"
 
 const badges = [
   "React",
@@ -23,7 +24,7 @@ export const Projects = () => {
   return (
     <div className={styles.root}>
       <Container>
-        <h1>Projects</h1>
+        <PageHeading title='Projects' longLetter={true} />
         <div className={styles.mainProject}>
           <h2>JobSprint (2023)</h2>
           <div className={styles.mainProjectDescription}>
@@ -64,8 +65,26 @@ export const Projects = () => {
             </div>
             <div>
               <h3>Repositories</h3>
-              <p>Client</p>
-              <p>Backend</p>
+              <p>
+                <a
+                  href='https://github.com/mike1234-pixel/gig-organiser-client'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.link}
+                >
+                  Client
+                </a>
+              </p>
+              <p>
+                <a
+                  href='https://github.com/mike1234-pixel/gig-organiser-api'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.link}
+                >
+                  Backend
+                </a>
+              </p>
             </div>
           </div>
         </div>
