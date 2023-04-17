@@ -1,10 +1,10 @@
 import classNames from "classnames"
-import React, { ReactNode, useState } from "react"
+import { ReactNode, useState } from "react"
 import styles from "./Tabs.module.css"
 
 export interface Tab {
   label: string
-  content: ReactNode
+  skills: ReactNode
 }
 
 interface Props {
@@ -36,7 +36,7 @@ export const Tabs = ({ tabs, defaultTab = 0 }: Props) => {
           </button>
         ))}
       </div>
-      <div className={styles.tabsContent}>{tabs[activeTab].content}</div>
+      <div className={styles.tabsContent}>{tabs[activeTab].skills}</div>
     </div>
   )
 }

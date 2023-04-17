@@ -1,16 +1,16 @@
 import { Container } from "../../common/Container"
 import { Tabs } from "../../common/Tabs"
 import { SkillsList } from "./SkillsList"
-import { skills } from "../../../data/skills"
-import styles from "./Skills.module.css"
 import { PageHeading } from "../../common/PageHeading"
+import { tabs } from "../../../data/skills"
+import styles from "./Skills.module.css"
 
-const tabs = skills.map((skill) => {
-  const { label, content } = skill
+const tabsData = tabs.map((tab) => {
+  const { label, skills } = tab
 
   return {
     label,
-    content: <SkillsList skills={content} />,
+    skills: <SkillsList skills={skills} />,
   }
 })
 
@@ -20,7 +20,7 @@ export const Skills = () => {
       <Container>
         <PageHeading title='Skills' />
         <p>hover a skill for a full description of my experience with it</p>
-        <Tabs tabs={tabs} />
+        <Tabs tabs={tabsData} />
       </Container>
     </div>
   )

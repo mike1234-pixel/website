@@ -1,1 +1,1 @@
-export { skills } from "./skills"
+export * from "./tabs"
