@@ -53,7 +53,7 @@ export const Projects = () => {
               <ul className={styles.technologies}>
                 {badges.map((badge, index) => {
                   return (
-                    <li>
+                    <li key={index}>
                       <Badge index={index}>{badge}</Badge>
                     </li>
                   )

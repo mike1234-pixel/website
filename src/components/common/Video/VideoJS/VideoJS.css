@@ -19,7 +19,7 @@
 .video-js .vjs-slider,
 .video-js .vjs-picture-in-picture-control,
 .video-js .vjs-fullscreen-control {
-  cursor: url("../../../../assets//cursors/cursor-pointer.png"), auto;
+  cursor: url("../../../../assets/cursors/cursor-pointer.png"), auto;
 }
 
 .video-js .vjs-big-play-button:active,
@@ -30,7 +30,7 @@
 .video-js .vjs-slider:active,
 .video-js .vjs-picture-in-picture-control:active,
 .video-js .vjs-fullscreen-control:active {
-  cursor: url("../../../../assets//cursors/cursor-pointer-small.png"), auto;
+  cursor: url("../../../../assets/cursors/cursor-pointer-small.png"), auto;
 }
 
 .video-js:hover .vjs-big-play-button,

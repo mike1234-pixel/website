@@ -10,7 +10,7 @@ export const SkillsList = ({ skills }: Props) => {
     <ul className={styles.skills}>
       {skills.map((skill, index) => {
         return (
-          <li>
+          <li key={index}>
             <Badge index={index}>{skill}</Badge>
           </li>
         )

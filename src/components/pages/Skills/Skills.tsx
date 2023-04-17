@@ -1,43 +1,17 @@
 import { Container } from "../../common/Container"
 import { Tabs } from "../../common/Tabs"
-import { Tab } from "../../common/Tabs/Tabs"
 import { SkillsList } from "./SkillsList"
+import { skills } from "./constants"
 import styles from "./Skills.module.css"
-import {
-  cssLibraries,
-  devops,
-  jsLibraries,
-  languages,
-  testing,
-  workflow,
-} from "./constants"
 
-const tabs: Tab[] = [
-  {
-    label: "Languages",
-    content: <SkillsList skills={languages} />,
-  },
-  {
-    label: "CSS Libraries, Preprocessors, Methodologies",
-    content: <SkillsList skills={cssLibraries} />,
-  },
-  {
-    label: "JavaScript Libraries",
-    content: <SkillsList skills={jsLibraries} />,
-  },
-  {
-    label: "Workflow, Agile & Collaboration",
-    content: <SkillsList skills={workflow} />,
-  },
-  {
-    label: "Automated Testing",
-    content: <SkillsList skills={testing} />,
-  },
-  {
-    label: "Devops",
-    content: <SkillsList skills={devops} />,
-  },
-]
+const tabs = skills.map((skill) => {
+  const { label, content } = skill
+
+  return {
+    label,
+    content: <SkillsList skills={content} />,
+  }
+})
 
 export const Skills = () => {
   return (
