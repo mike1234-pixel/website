@@ -19,7 +19,10 @@ export const Skills = () => {
     <div className={styles.root}>
       <Container>
         <PageHeading title='Skills' />
-        <p>hover a skill for a full description of my experience with it</p>
+        <h4>
+          <strong>Hover the badges</strong> for more information about my
+          experience with the listed technologies and methodologies.
+        </h4>
         <Tabs tabs={tabsData} />
       </Container>
     </div>

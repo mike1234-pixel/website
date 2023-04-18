@@ -1,0 +1,52 @@
+.root {
+  padding: 30px;
+  background: var(--bg-primary);
+  margin-bottom: 80px;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .description {
+    grid-template-columns: 1fr;
+  }
+}
+
+.technologies {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.technologies li {
+  flex-grow: 1;
+}
+
+.repos {
+  list-style: circle;
+}
+
+.repos li {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.link {
+  color: var(--action);
+  text-shadow: 0 0 1px blue;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--action-dark);
+  text-decoration: underline;
+}

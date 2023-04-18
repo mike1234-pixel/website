@@ -1,3 +1,7 @@
 .root {
   padding: 160px 0 120px;
 }
+
+.root h4 {
+  margin-bottom: 40px;
+}
