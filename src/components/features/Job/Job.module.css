@@ -1,0 +1,26 @@
+.root h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--dark);
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  padding-bottom: 8px;
+}
+
+.root h4 {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.root ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.root li {
+  margin-bottom: 10px;
+}

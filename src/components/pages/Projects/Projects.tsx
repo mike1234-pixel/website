@@ -65,26 +65,28 @@ export const Projects = () => {
             </div>
             <div>
               <h3>Repositories</h3>
-              <p>
-                <a
-                  href='https://github.com/mike1234-pixel/gig-organiser-client'
-                  target='_blank'
-                  rel='noreferrer'
-                  className={styles.link}
-                >
-                  Client
-                </a>
-              </p>
-              <p>
-                <a
-                  href='https://github.com/mike1234-pixel/gig-organiser-api'
-                  target='_blank'
-                  rel='noreferrer'
-                  className={styles.link}
-                >
-                  Backend
-                </a>
-              </p>
+              <ul className={styles.repos}>
+                <li>
+                  <a
+                    href='https://github.com/mike1234-pixel/gig-organiser-client'
+                    target='_blank'
+                    rel='noreferrer'
+                    className={styles.link}
+                  >
+                    View the Client Repo here
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='https://github.com/mike1234-pixel/gig-organiser-api'
+                    target='_blank'
+                    rel='noreferrer'
+                    className={styles.link}
+                  >
+                    View the Backend Repo here
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

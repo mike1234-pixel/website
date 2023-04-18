@@ -2,7 +2,7 @@ import { Container } from "../../common/Container"
 import { Tabs } from "../../common/Tabs"
 import { SkillsList } from "./SkillsList"
 import { PageHeading } from "../../common/PageHeading"
-import { tabs } from "../../../data/skills"
+import { tabs } from "../../../data/tabs"
 import styles from "./Skills.module.css"
 
 const tabsData = tabs.map((tab) => {

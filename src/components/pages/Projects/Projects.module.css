@@ -40,9 +40,19 @@
   flex-grow: 1;
 }
 
+.repos {
+  list-style: circle;
+}
+
+.repos li {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
 .link {
   color: var(--action);
-  font-size: 1.6rem;
   text-shadow: 0 0 1px blue;
 }
 
