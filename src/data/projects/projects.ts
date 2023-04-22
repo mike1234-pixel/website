@@ -35,4 +35,16 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    title: "VR Tours",
+    description: [""],
+    video: "",
+    badges: ["Aframe", "WebVR"],
+    repos: [
+      {
+        link: "",
+        linkText: "View the Repo here",
+      },
+    ],
+  },
 ]

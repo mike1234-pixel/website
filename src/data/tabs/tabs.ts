@@ -36,6 +36,7 @@ export const tabs: Tab[] = [
       { title: "Redux", info: "lorem" },
       { title: "Vuex", info: "lorem" },
       { title: "React Query", info: "lorem" },
+      { title: "trpc", info: "lorem" },
       { title: "Formik", info: "lorem" },
       { title: "Yup", info: "lorem" },
       { title: "React Table", info: "lorem" },
@@ -49,7 +50,7 @@ export const tabs: Tab[] = [
       { title: "Scrum", info: "lorem" },
       { title: "Kanban", info: "lorem" },
       { title: "Jira", info: "lorem" },
-      { title: "Azure Devop", info: "lorem" },
+      { title: "Azure Devops", info: "lorem" },
       { title: "Git / Github", info: "lorem" },
       { title: "Peer Review", info: "lorem" },
       { title: "Product Backlog Refinement", info: "lorem" },
@@ -62,6 +63,14 @@ export const tabs: Tab[] = [
       { title: "Jest", info: "lorem" },
       { title: "Testing library", info: "lorem" },
       { title: "Cypress", info: "lorem" },
+    ],
+  },
+  {
+    label: "Backend",
+    skills: [
+      { title: "Node.js / Express", info: "lorem" },
+      { title: "MongoDB", info: "lorem" },
+      { title: "Postgres", info: "lorem" },
     ],
   },
   {

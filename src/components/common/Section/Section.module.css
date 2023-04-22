@@ -41,6 +41,12 @@
   grid-template-columns: 40% 60%;
 }
 
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .image img {
   width: 100%;
   border: 6px outset var(--purple-2);

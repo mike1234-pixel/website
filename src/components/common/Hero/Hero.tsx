@@ -8,14 +8,19 @@ export const Hero = () => {
         <div className={styles.text}>
           <h1 className={styles.title}>Frontend Contractor</h1>
           <p>
-            I'm a Frontend Sofware Engineer specialising in{" "}
+            I am a Frontend Sofware Engineer specialising in{" "}
             <strong>React.js.</strong>
           </p>
           <p>
-            I have a broad range of experience in the software industry, having
-            worked at web agencies, startups, and big companies.
+            I prioritise working collaboratively to find solutions, and I strive
+            to contribute my skills and expertise to the team. I have experience
+            working in Agile environments and value flexibility, transparency,
+            and communication to ensure successful outcomes.
           </p>
-          <p>CONTRIBUTION, COLLABORATION</p>
+          <p>
+            My professional experience spans working in agencies, startups, and
+            big companies.
+          </p>
         </div>
       </Container>
       <div className={styles.bgImage}></div>
