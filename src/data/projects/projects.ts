@@ -36,14 +36,22 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "VR Tours",
-    description: [""],
-    video: "",
+    title: "Sahara Museum",
+    description: [
+      "Sahara Museum is a demo project and a work in progress.",
+      "The aim of the project is to use VR technology to create an educational experience integrated into a navigable website.",
+      "Sahara Museum offers an interactive environment where users can learn about the people, culture, history and geography of the Sahara Desert.",
+    ],
+    video: "video/sahara-museum-demo.mp4",
     badges: ["Aframe", "WebVR"],
     repos: [
       {
-        link: "",
+        link: "https://github.com/mike1234-pixel/sahara-museum",
         linkText: "View the Repo here",
+      },
+      {
+        link: "https://mike1234-pixel.github.io/sahara-museum/",
+        linkText: "View the live project here",
       },
     ],
   },
