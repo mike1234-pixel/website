@@ -4,6 +4,7 @@ import { Home } from "./components/pages/Home"
 import { Skills } from "./components/pages/Skills"
 import { Projects } from "./components/pages/Projects"
 import { Experience } from "./components/pages/Experience"
+import { Gallery } from "./components/pages/Gallery"
 import { Privacy } from "./components/pages/Privacy"
 import { Cookies } from "./components/pages/Cookies"
 import { NotFound } from "./components/pages/NotFound"
@@ -22,6 +23,7 @@ function App() {
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/privacy' element={<Privacy />} />
           <Route path='/cookies' element={<Cookies />} />
           <Route path='*' element={<NotFound />} />
