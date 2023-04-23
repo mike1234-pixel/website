@@ -20,6 +20,9 @@ export const Home = () => {
           nostrum provident eius rem consequatur? Error, impedit adipisci eum
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
+        <Link to='/gallery' className={styles.link}>
+          See my personal gallery...
+        </Link>
       </Section>
       <Section
         img={michael3}
