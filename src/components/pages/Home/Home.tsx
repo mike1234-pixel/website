@@ -3,7 +3,6 @@ import { Section } from "../../common/Section"
 import michael2 from "../../../assets/michael-tandy/2.jpg"
 import michael3 from "../../../assets/michael-tandy/3.jpg"
 import { Link } from "react-router-dom"
-import jobsprintDemo from "../../../assets/video/jobsprint-demo.mp4"
 import styles from "./Home.module.css"
 
 export const Home = () => {
@@ -43,7 +42,7 @@ export const Home = () => {
           </Link>
         </p>
       </Section>
-      <Section video={jobsprintDemo}>
+      <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
         <h2>Projects</h2>
         <p>
           JobSprint (2023) is my most recent personal project that uses React.

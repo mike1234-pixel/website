@@ -22,7 +22,7 @@ export const Project = ({ project }: Props) => {
         </div>
         <div>
           <h3>Demo</h3>
-          {video && <Video src={`${process.env.PUBLIC_URL}/${video}`} />}
+          {video && <Video src={video} />}
         </div>
         <div>
           <h3>Technologies Used</h3>

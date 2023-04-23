@@ -9,7 +9,8 @@ export const projects: Project[] = [
       "JobSprint uses React Query to fetch and mutate data from a GoLang/Postgres backend so that users are able to efficiently organise their job search.",
       "I have recorded a demo for the project and the repositories can be found on Github.",
     ],
-    video: "video/jobsprint-demo.mp4",
+    video:
+      "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4",
     badges: [
       "React",
       "TypeScript",
@@ -42,7 +43,8 @@ export const projects: Project[] = [
       "The aim of the project is to use VR technology to create an educational experience integrated into a navigable website.",
       "Sahara Museum offers an interactive environment where users can learn about the people, culture, history and geography of the Sahara Desert.",
     ],
-    video: "video/sahara-museum-demo.mp4",
+    video:
+      "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/sahara-museum-demo.mp4",
     badges: ["Aframe", "WebVR"],
     repos: [
       {
