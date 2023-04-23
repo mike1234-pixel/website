@@ -21,7 +21,7 @@ export const Home = () => {
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
         <Link to='/gallery' className={styles.link}>
-          See my personal gallery...
+          See what I like to do outside of work...
         </Link>
       </Section>
       <Section

@@ -3,6 +3,7 @@ import { Gallery, Item } from "react-photoswipe-gallery"
 import { photos } from "../../../data/gallery"
 import "photoswipe/dist/photoswipe.css"
 import styles from "./LightboxGallery.module.css"
+import "./LightboxGallery.css"
 
 type ImgRef = LegacyRef<HTMLImageElement>
 

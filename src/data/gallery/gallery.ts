@@ -18,7 +18,8 @@ interface Photo {
 export const photos: Photo[] = [
   {
     imgSrc: img2,
-    caption: "caption",
+    caption:
+      "I love to travel and have been seeing a lot of Eastern Europe recently. This is me in Belgrade.",
     altText: "Michael Tandy - Software Engineer",
   },
   {
@@ -33,7 +34,8 @@ export const photos: Photo[] = [
   },
   {
     imgSrc: img14,
-    caption: "caption",
+    caption:
+      "I love museums... any museum. Historical museums, quirky museums, you name it. This is from the Museum of Illusions in Zagreb.",
     altText: "Michael Tandy - Software Engineer",
   },
   {
@@ -53,17 +55,20 @@ export const photos: Photo[] = [
   },
   {
     imgSrc: img20,
-    caption: "caption",
+    caption:
+      "I love museums... any museum. Historical museums, quirky museums, you name it. This is from the Museum of Illusions in Zagreb.",
     altText: "Michael Tandy - Software Engineer",
   },
   {
     imgSrc: img22,
-    caption: "caption",
+    caption:
+      "I love museums... any museum. Historical museums, quirky museums, you name it. This is from the Museum of Illusions in Zagreb.",
     altText: "Michael Tandy - Software Engineer",
   },
   {
     imgSrc: img23,
-    caption: "caption",
+    caption:
+      "I love museums... any museum. Historical museums, quirky museums, you name it. This is from the Museum of Illusions in Zagreb.",
     altText: "Michael Tandy - Software Engineer",
   },
 ]
