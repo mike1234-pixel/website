@@ -80,7 +80,7 @@ export const Footer = () => {
                   target='_black'
                   rel='noreferrer'
                 >
-                  Fork this respository
+                  Fork the respository
                 </a>
               </p>
             </div>

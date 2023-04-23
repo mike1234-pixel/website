@@ -9,6 +9,7 @@ import { Cookies } from "./components/pages/Cookies"
 import { NotFound } from "./components/pages/NotFound"
 import { Footer } from "./components/common/Footer"
 import { ScrollToTop } from "./components/common/ScrollToTop"
+import { CookiesNotification } from "./components/common/CookiesNotification"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
+        <CookiesNotification />
       </BrowserRouter>
     </div>
   )
