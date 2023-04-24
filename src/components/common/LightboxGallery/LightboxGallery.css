@@ -2,3 +2,11 @@
 .pswp__default-caption {
   background: var(--dark);
 }
+
+.pswp__button {
+  cursor: url("../../../assets/cursors/cursor-pointer.png"), auto;
+}
+
+.pswp__button:focus {
+  cursor: url("../../../assets/cursors/cursor-pointer.png"), auto;
+}
