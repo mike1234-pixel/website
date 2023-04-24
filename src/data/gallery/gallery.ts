@@ -79,32 +79,38 @@ export const photos: Photo[] = [
   },
   {
     imgSrc: illustration1, // 820 x 1092
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of whitechapel gallery",
   },
   {
     imgSrc: illustration2,
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of samuel johnson's house",
   },
   {
     imgSrc: illustration3,
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of camden market",
   },
   {
     imgSrc: illustration4,
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of camden market",
   },
   {
     imgSrc: illustration5,
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of john soanes museum",
   },
   {
     imgSrc: illustration6,
-    caption: "s",
+    caption:
+      "Illustration is one of my hobbies. As a frontend engineer I find an interest in shapes, aesthetics and detail comes in useful.",
     altText: "illustration of leeds corn exchange",
   },
 ]

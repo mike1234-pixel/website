@@ -5,12 +5,12 @@ import { Container } from "../Container"
 import styles from "./CookiesNotification.module.css"
 
 export const CookiesNotification = () => {
-  const [notificationVisible, setNotificationVisible] = useState<boolean>(true)
+  const [notificationVisible, setNotificationVisible] = useState<boolean>(false)
 
   useEffect(() => {
     const cookiesAcceptedPreviously =
       localStorage.getItem("cookiesAccepted") === "true"
-    cookiesAcceptedPreviously && setNotificationVisible(false)
+    !cookiesAcceptedPreviously && setNotificationVisible(true)
   }, [])
 
   const handleAccept = () => {
