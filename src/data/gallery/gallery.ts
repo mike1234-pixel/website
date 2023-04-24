@@ -8,6 +8,12 @@ import img19 from "../../assets/gallery/19.jpg"
 import img20 from "../../assets/gallery/20.jpg"
 import img22 from "../../assets/gallery/22.jpg"
 import img23 from "../../assets/gallery/23.jpg"
+import illustration1 from "../../assets/gallery/illustration-1.jpg"
+import illustration2 from "../../assets/gallery/illustration-2.jpg"
+import illustration3 from "../../assets/gallery/illustration-3.jpg"
+import illustration4 from "../../assets/gallery/illustration-4.jpg"
+import illustration5 from "../../assets/gallery/illustration-5.jpg"
+import illustration6 from "../../assets/gallery/illustration-6.jpg"
 
 interface Photo {
   imgSrc: string
@@ -70,5 +76,35 @@ export const photos: Photo[] = [
     caption:
       "I love museums... any museum. Historical museums, quirky museums, you name it. This is from the Museum of Illusions in Zagreb.",
     altText: "Michael Tandy - Software Engineer",
+  },
+  {
+    imgSrc: illustration1, // 820 x 1092
+    caption: "s",
+    altText: "illustration of whitechapel gallery",
+  },
+  {
+    imgSrc: illustration2,
+    caption: "s",
+    altText: "illustration of samuel johnson's house",
+  },
+  {
+    imgSrc: illustration3,
+    caption: "s",
+    altText: "illustration of camden market",
+  },
+  {
+    imgSrc: illustration4,
+    caption: "s",
+    altText: "illustration of camden market",
+  },
+  {
+    imgSrc: illustration5,
+    caption: "s",
+    altText: "illustration of john soanes museum",
+  },
+  {
+    imgSrc: illustration6,
+    caption: "s",
+    altText: "illustration of leeds corn exchange",
   },
 ]
