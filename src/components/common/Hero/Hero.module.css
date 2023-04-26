@@ -1,5 +1,6 @@
 .root {
   background: var(--bg-secondary);
+  background-position: center 60px;
   background-attachment: fixed;
   padding-top: 65px;
   display: flex;
