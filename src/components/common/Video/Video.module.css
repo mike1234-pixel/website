@@ -1,5 +1,4 @@
 .root {
   width: 100%;
-  border: 6px outset var(--purple-2);
-  border-radius: 3px;
+  border: 6px outset var(--purple-1);
 }

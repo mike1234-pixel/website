@@ -26,6 +26,7 @@ export const Footer = () => {
                 <LinkItem to='/experience'>Experience</LinkItem>
                 <LinkItem to='/projects'>Projects</LinkItem>
                 <LinkItem to='/skills'>Skills</LinkItem>
+                <LinkItem to='/gallery'>Gallery</LinkItem>
               </ul>
             </div>
             <div>

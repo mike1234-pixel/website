@@ -1,6 +1,6 @@
 .itemsContainer {
   display: flex;
-  gap: 12px;
+  gap: 60px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -13,8 +13,9 @@
 
 .image {
   cursor: url("../../../assets/cursors/cursor-pointer.png"), auto;
-  width: 342px;
-  height: 454px;
+  width: 273px;
+  height: 363px;
+  border: 6px outset var(--purple-1);
 }
 
 .image:active {

@@ -39,10 +39,10 @@ export const Project = ({ project }: Props) => {
         <div>
           <h3>Repositories</h3>
           <ul className={styles.repos}>
-            {repos.map((repo) => {
+            {repos.map((repo, index) => {
               const { link, linkText } = repo
               return (
-                <li>
+                <li key={index}>
                   <a
                     href={link}
                     target='_blank'
