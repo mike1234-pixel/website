@@ -71,6 +71,7 @@ export const tabs: Tab[] = [
       { title: "Jira", info: "lorem" },
       { title: "Azure Devops", info: "lorem" },
       { title: "Git / Github", info: "lorem" },
+      { title: "ESLint", info: "lorem" },
       { title: "Peer Review", info: "lorem" },
       { title: "Product Backlog Refinement", info: "lorem" },
       { title: "Writing user stories", info: "lorem" },

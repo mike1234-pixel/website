@@ -2,8 +2,8 @@ import { Hero } from "../../common/Hero"
 import { Section } from "../../common/Section"
 import michael2 from "../../../assets/michael-tandy/2.jpg"
 import michael3 from "../../../assets/michael-tandy/3.jpg"
-import { Link } from "react-router-dom"
 import styles from "./Home.module.css"
+import { HyperLink } from "../../common/HyperLink/HyperLink"
 
 export const Home = () => {
   return (
@@ -20,9 +20,9 @@ export const Home = () => {
           nostrum provident eius rem consequatur? Error, impedit adipisci eum
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
-        <Link to='/gallery' className={styles.link}>
+        <HyperLink to='/gallery' internalLink>
           See what I like to do outside of work...
-        </Link>
+        </HyperLink>
       </Section>
       <Section
         img={michael3}
@@ -40,9 +40,9 @@ export const Home = () => {
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
         <p>
-          <Link to='/experience' className={styles.linkAlt}>
+          <HyperLink to='/experience' internalLink alt>
             View my experience...
-          </Link>
+          </HyperLink>
         </p>
       </Section>
       <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
@@ -64,9 +64,9 @@ export const Home = () => {
           found on Github.
         </p>
         <p>
-          <Link to='/projects' className={styles.link}>
+          <HyperLink to='/projects' internalLink>
             Watch JobSprint demo...
-          </Link>
+          </HyperLink>
         </p>
       </Section>
     </div>

@@ -1,0 +1,35 @@
+.root {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px outset var(--purple-1);
+  text-align: center;
+  font-weight: 900;
+}
+
+.root:active {
+  border-style: inset;
+}
+
+.action {
+  background: var(--badge-1-bg);
+  color: var(--badge-1-text);
+  border-color: var(--badge-1-text);
+}
+
+.success {
+  background: var(--badge-3-bg);
+  color: var(--badge-3-text);
+  border-color: var(--badge-3-text);
+}
+
+.warning {
+  background: var(--badge-5-bg);
+  color: var(--badge-5-text);
+  border-color: var(--badge-5-text);
+}
+
+.danger {
+  background: var(--badge-2-bg);
+  color: var(--badge-2-text);
+  border-color: var(--badge-2-text);
+}

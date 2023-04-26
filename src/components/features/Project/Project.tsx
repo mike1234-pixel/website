@@ -1,5 +1,6 @@
 import { Project as ProjectI } from "../../../types/Project"
 import { Badge } from "../../common/Badge"
+import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { Video } from "../../common/Video"
 import styles from "./Project.module.css"
 
@@ -43,14 +44,9 @@ export const Project = ({ project }: Props) => {
               const { link, linkText } = repo
               return (
                 <li key={index}>
-                  <a
-                    href={link}
-                    target='_blank'
-                    rel='noreferrer'
-                    className={styles.link}
-                  >
+                  <HyperLink to={link} alt>
                     {linkText}
-                  </a>
+                  </HyperLink>
                 </li>
               )
             })}

@@ -29,7 +29,7 @@
 }
 
 .repos {
-  list-style: circle;
+  list-style: disc;
 }
 
 .repos li {
@@ -37,16 +37,4 @@
   line-height: 1rem;
   margin-bottom: 20px;
   margin-left: 25px;
-}
-
-.link {
-  color: var(--action-alt);
-  text-decoration: underline;
-  padding: 5px;
-}
-
-.link:hover,
-.link:focus,
-.link:active {
-  color: var(--action-dark);
 }

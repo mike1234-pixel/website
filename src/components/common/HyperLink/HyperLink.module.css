@@ -1,0 +1,21 @@
+.root {
+  color: var(--action);
+  text-decoration: underline;
+}
+
+.rootAlt {
+  color: var(--action-alt);
+  text-decoration: underline;
+}
+
+.root:hover,
+.root:focus,
+.root:active {
+  color: var(--action-dark);
+}
+
+.rootAlt:hover,
+.rootAlt:focus,
+.rootAlt:active {
+  color: var(--action-dark);
+}
