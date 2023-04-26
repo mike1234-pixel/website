@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# My Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my professional portfolio built with React and TypeScript.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This portfolio showcases my skills and experience as a developer. The data is stored in the `data` directory under `src`. The portfolio contains several sections including Projects, Skills, Experience and Gallery (About Me).
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+git clone https://github.com/your-username/my-professional-portfolio.git
+```
 
-### `npm test`
+2. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd my-professional-portfolio
+npm install
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Run the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open [http://localhost:3000](http://localhost:3000) in a browser to view the portfolio.
 
-### `npm run eject`
+## Data
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The data for the portfolio is stored in the `data` directory under `src`. The data is organized into separate JSON files for each section.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To deploy the portfolio, run the following command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+This will create a production-ready build in the `build` directory. You can then deploy the contents of the `build` directory to a web server or hosting service of your choice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This portfolio is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+
+This portfolio was built with:
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Create React App](https://create-react-app.dev/)
+- [React Router](https://reactrouter.com/)
+- [PhotoSwipe](https://photoswipe.com/)
+- [Video.js](https://videojs.com/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+
+## Contact
+
+If you have any questions or comments, feel free to contact me at `your-email@example.com`.
+
+Sure! Here's an updated credits section for the README file that includes PhotoSwipe, Video.js, and CSS Modules:

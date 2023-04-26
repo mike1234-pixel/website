@@ -17,8 +17,8 @@ export const Project = ({ project }: Props) => {
       <div className={styles.description}>
         <div>
           <h3>Description</h3>
-          {description.map((paragraph) => {
-            return <p>{paragraph}</p>
+          {description.map((paragraph, index) => {
+            return <p key={index}>{paragraph}</p>
           })}
         </div>
         <div>
