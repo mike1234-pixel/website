@@ -33,20 +33,20 @@
 }
 
 .repos li {
-  font-size: 1.6rem;
-  line-height: 1.6rem;
+  font-size: 1rem;
+  line-height: 1rem;
   margin-bottom: 20px;
   margin-left: 25px;
 }
 
 .link {
-  color: var(--action);
-  text-shadow: 0 0 1px blue;
+  color: var(--action-alt);
+  text-decoration: underline;
+  padding: 5px;
 }
 
 .link:hover,
 .link:focus,
 .link:active {
   color: var(--action-dark);
-  text-decoration: underline;
 }

@@ -1,10 +1,21 @@
 .link {
   color: var(--action);
+  text-decoration: underline;
+}
+
+.linkAlt {
+  color: var(--action-alt);
+  text-decoration: underline;
 }
 
 .link:hover,
 .link:focus,
 .link:active {
   color: var(--action-dark);
-  text-decoration: underline;
+}
+
+.linkAlt:hover,
+.linkAlt:focus,
+.linkAlt:active {
+  color: var(--action-dark);
 }

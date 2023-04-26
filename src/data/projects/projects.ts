@@ -28,11 +28,11 @@ export const projects: Project[] = [
     repos: [
       {
         link: "https://github.com/mike1234-pixel/gig-organiser-client",
-        linkText: "View the Client Repo here",
+        linkText: "frontend repository",
       },
       {
         link: "https://github.com/mike1234-pixel/gig-organiser-api",
-        linkText: "View the Backend Repo here",
+        linkText: "backend repository",
       },
     ],
   },
@@ -49,11 +49,11 @@ export const projects: Project[] = [
     repos: [
       {
         link: "https://github.com/mike1234-pixel/sahara-museum",
-        linkText: "View the Repo here",
+        linkText: "repository",
       },
       {
         link: "https://mike1234-pixel.github.io/sahara-museum/",
-        linkText: "View the live project here",
+        linkText: "live project",
       },
     ],
   },

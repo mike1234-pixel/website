@@ -40,7 +40,7 @@ export const Home = () => {
           quaerat in nam repudiandae! Repudiandae, adipisci?
         </p>
         <p>
-          <Link to='/experience' className={styles.link}>
+          <Link to='/experience' className={styles.linkAlt}>
             View my experience...
           </Link>
         </p>
