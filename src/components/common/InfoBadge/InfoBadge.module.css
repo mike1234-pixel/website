@@ -13,8 +13,13 @@
   color: var(--white);
   padding: 20px;
   border-radius: 3px;
-  min-width: 300px;
   transition: opacity 0.2s linear;
+}
+
+@media (min-width: 1200px) {
+  .tooltip {
+    min-width: 300px;
+  }
 }
 
 .tooltip::after {

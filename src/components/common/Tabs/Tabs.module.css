@@ -13,7 +13,7 @@
 
 .tab {
   padding: 20px;
-  font-size: 1.6rem;
+  font-size: 1rem;
   flex-grow: 1;
   text-align: center;
   border: none;
@@ -21,12 +21,16 @@
   border-bottom: 2px solid var(--purple-3);
   margin-top: -2px;
   background: rgba(255, 255, 255, 0.4);
+  color: var(--purple-3);
+  font-family: var(--font-primary);
+  font-weight: 700;
 }
 
 .activeTab {
   border-bottom: none;
   border-top: 2px solid var(--purple-3);
   background: transparent;
+  color: var(--dark);
 }
 
 .tabsContent {
