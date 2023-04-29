@@ -15,7 +15,6 @@
   cursor: url("../../../assets/cursors/cursor-pointer.png"), auto;
   width: 273px;
   height: 363px;
-  border: 6px outset var(--purple-1);
 }
 
 .image:active {
