@@ -25,3 +25,18 @@
 .rootAlt:active {
   color: var(--action-dark);
 }
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 1.6rem;
+  transition: all 0.2s;
+}
+
+.root:hover .arrow,
+.rootAlt:hover .arrow {
+  margin-left: 10px;
+}

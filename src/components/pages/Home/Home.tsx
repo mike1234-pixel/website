@@ -26,7 +26,7 @@ export const Home = () => {
           working collaboratively and communicating transparently to find
           solutions that drive successful outcomes.
         </p>
-        <HyperLink to='/gallery' internalLink>
+        <HyperLink to='/gallery' internalLink arrow>
           Explore my gallery for a glimpse into my personal interests and
           experiences
         </HyperLink>
@@ -47,7 +47,7 @@ export const Home = () => {
           Avayler (a Halfords Group company).
         </p>
         <p>
-          <HyperLink to='/experience' internalLink alt>
+          <HyperLink to='/experience' internalLink alt arrow>
             Click through for an overview of my professional experience
           </HyperLink>
         </p>
@@ -67,7 +67,7 @@ export const Home = () => {
           video demos for each project.
         </p>
         <p>
-          <HyperLink to='/projects' internalLink>
+          <HyperLink to='/projects' internalLink arrow>
             Click through to explore and watch the demos to see these projects
             in action
           </HyperLink>

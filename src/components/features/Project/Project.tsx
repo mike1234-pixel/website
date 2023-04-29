@@ -48,7 +48,7 @@ export const Project = ({ project }: Props) => {
               const { link, linkText } = repo
               return (
                 <li key={index}>
-                  <HyperLink to={link} alt>
+                  <HyperLink to={link} alt arrow>
                     {linkText}
                   </HyperLink>
                 </li>
