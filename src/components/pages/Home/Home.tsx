@@ -12,16 +12,22 @@ export const Home = () => {
       <Section img={michael2} altText='Michael Tandy - Software Engineer'>
         <h2>About</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-          rerum excepturi assumenda illum in enim! Illo dignissimos ab repellat
-          aut ratione, necessitatibus voluptate at repellendus repudiandae
-          dolore amet iusto provident? Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Laboriosam atque quam nobis facilis enim debitis
-          nostrum provident eius rem consequatur? Error, impedit adipisci eum
-          quaerat in nam repudiandae! Repudiandae, adipisci?
+          Hello there, I'm Michael (or Mike), a frontend software engineer who
+          specializes in React.js.
+        </p>
+        <p>
+          I bring a visual and creative approach to my work, which is rooted in
+          my love of illustration. Outside of coding, I'm passionate about
+          exploring the world through travel and learning new languages (I'm
+          currently learning Persian for Iranian fiancée).
+        </p>{" "}
+        <p>
+          With experience in both startups and big companies, I prioritize
+          working collaboratively and communicating transparently to find
+          solutions that drive successful outcomes.
         </p>
         <HyperLink to='/gallery' internalLink>
-          See what I like to do outside of work...
+          Click through to my gallery to discover more about me personally
         </HyperLink>
       </Section>
       <Section
@@ -31,41 +37,38 @@ export const Home = () => {
       >
         <h2>Experience</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-          rerum excepturi assumenda illum in enim! Illo dignissimos ab repellat
-          aut ratione, necessitatibus voluptate at repellendus repudiandae
-          dolore amet iusto provident? Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Laboriosam atque quam nobis facilis enim debitis
-          nostrum provident eius rem consequatur? Error, impedit adipisci eum
-          quaerat in nam repudiandae! Repudiandae, adipisci?
+          I have worked on a broad range of projects professionally and
+          personally in a range of organisation types.
+        </p>
+        <p>
+          These projects span from website builds and ecommerce, to my more
+          recent professional work developing management consoles at Ori and
+          Avayler (a Halfords Group company).
         </p>
         <p>
           <HyperLink to='/experience' internalLink alt>
-            View my experience...
+            Click through for a breakdown of my professional experience
           </HyperLink>
         </p>
       </Section>
       <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
         <h2>Projects</h2>
         <p>
-          JobSprint (2023) is my most recent personal project that uses React.
+          Here, you'll find some of the web development projects that I've
+          worked on outside of my professional work.
         </p>
         <p>
-          Having built various management consoles with React in commercial
-          settings; I used those skills to build my own.
+          Each project is unique, and I approach each one with fresh ideas and
+          attention to detail.
         </p>
         <p>
-          JobSprint uses React Query to fetch and mutate data from a
-          GoLang/Postgres backend so that users are able to efficiently organise
-          their job search.
-        </p>
-        <p>
-          I have recorded a demo for the project and the repositories can be
-          found on Github.
+          In the projects page, you'll find a selection of my work, along with
+          video demos for each project.
         </p>
         <p>
           <HyperLink to='/projects' internalLink>
-            Watch JobSprint demo...
+            Click through to explore and watch the demos to see these projects
+            in action
           </HyperLink>
         </p>
       </Section>

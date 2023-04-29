@@ -6,20 +6,21 @@ export const Hero = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.text}>
-          <h1 className={styles.title}>Frontend Contractor</h1>
+          <h1 className={styles.title}>Frontend Software Engineer</h1>
+
           <p>
             I am a Frontend Sofware Engineer specialising in{" "}
-            <strong>React.js.</strong>
+            <strong>React.js</strong>, with professional experience spanning a{" "}
+            <strong>broad range of organisations</strong>, including agencies,
+            startups, and big companies.
           </p>
           <p>
-            I prioritise working collaboratively to find solutions, and I strive
-            to contribute my skills and expertise to the team. I have experience
-            working in Agile environments and value flexibility, transparency,
-            and communication to ensure successful outcomes.
-          </p>
-          <p>
-            My professional experience spans working in agencies, startups, and
-            big companies.
+            I prioritise working <strong>collaboratively</strong> to find
+            solutions, and I strive to contribute my skills and expertise to the
+            team. I have experience working in <strong>Agile</strong>{" "}
+            environments and value{" "}
+            <strong>flexibility, transparency, and communication</strong> to
+            ensure successful outcomes.
           </p>
         </div>
       </Container>

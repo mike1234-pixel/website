@@ -45,6 +45,7 @@
   color: var(--purple-1);
   background: rgba(255, 255, 255, 0.9);
   border: 6px outset var(--purple-1);
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -67,6 +68,15 @@
   color: var(--dark);
 }
 
+.text strong {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: var(--dark);
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 767px) {
   .text {
     width: 100%;
@@ -78,6 +88,7 @@
 
 .title {
   font-family: var(--font-primary);
+  padding-bottom: 8px;
 }
 
 @media (max-width: 470px) {
