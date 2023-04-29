@@ -10,7 +10,12 @@ export const Projects = () => {
       <Container>
         <PageHeading title='Projects' longLetter={true} />
         {projects.map((project) => {
-          return <Project project={project} />
+          const { id } = project
+          return (
+            <div key={id}>
+              <Project project={project} />
+            </div>
+          )
         })}
       </Container>
     </div>

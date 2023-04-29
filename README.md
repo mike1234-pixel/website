@@ -11,7 +11,7 @@ This portfolio showcases my skills and experience as a developer. The data is st
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/my-professional-portfolio.git
+git clone https://github.com/mike1234-pixel/website.git
 ```
 
 2. Install dependencies:

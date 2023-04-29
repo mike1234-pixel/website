@@ -13,11 +13,11 @@ export const LightboxGallery = () => {
     <div className={styles.root}>
       <Gallery withCaption>
         <div className={styles.itemsContainer}>
-          {photos.map((photo, index) => {
-            const { imgSrc, caption, altText } = photo
+          {photos.map((photo) => {
+            const { imgSrc, caption, altText, id } = photo
 
             return (
-              <div className={styles.item} key={index}>
+              <div className={styles.item} key={id}>
                 <Fade>
                   <Item
                     original={imgSrc}

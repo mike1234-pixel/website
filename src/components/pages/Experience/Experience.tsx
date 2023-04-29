@@ -10,9 +10,10 @@ export const Experience = () => {
     <div className={styles.root}>
       <Container>
         <PageHeading title='Experience' longLetter={true} />
-        {jobs.map((job, index) => {
+        {jobs.map((job) => {
+          const { id } = job
           return (
-            <div key={index}>
+            <div key={id}>
               <Job job={job} />
             </div>
           )

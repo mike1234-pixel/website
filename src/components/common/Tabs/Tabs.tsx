@@ -22,19 +22,21 @@ export const Tabs = ({ tabs, defaultTab = 0 }: Props) => {
   return (
     <div className={styles.root}>
       <div className={styles.tabsHeader}>
-        {tabs.map((tab, index) => (
-          <button
-            key={index}
-            className={
-              activeTab === index
-                ? classNames(styles.tab, styles.activeTab)
-                : styles.tab
-            }
-            onClick={() => handleTabClick(index)}
-          >
-            {tab.label}
-          </button>
-        ))}
+        {tabs.map((tab, index) => {
+          return (
+            <button
+              key={index}
+              className={
+                activeTab === index
+                  ? classNames(styles.tab, styles.activeTab)
+                  : styles.tab
+              }
+              onClick={() => handleTabClick(index)}
+            >
+              {tab.label}
+            </button>
+          )
+        })}
       </div>
       <div className={styles.tabsContent}>{tabs[activeTab].skills}</div>
     </div>

@@ -1,10 +1,6 @@
+import { Skill } from "../../../../types/Tab"
 import { InfoBadge } from "../../../common/InfoBadge"
 import styles from "./SkillsList.module.css"
-
-interface Skill {
-  title: string
-  info: string
-}
 
 interface Props {
   skills: Skill[]

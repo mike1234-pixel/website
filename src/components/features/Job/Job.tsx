@@ -1,4 +1,4 @@
-import { Job as JobI } from "../../../types/Jobs"
+import { Job as JobI } from "../../../types/Job"
 import styles from "./Job.module.css"
 
 interface Props {

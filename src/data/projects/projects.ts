@@ -2,6 +2,7 @@ import { Project } from "../../types/Project"
 
 export const projects: Project[] = [
   {
+    id: "e72d01a1-1776-4c6f-9716-fc10e968b239",
     title: "JobSprint (2023)",
     description: [
       "JobSprint is my most recent personal project that uses React.",
@@ -35,8 +36,10 @@ export const projects: Project[] = [
         linkText: "backend repository",
       },
     ],
+    starProject: true,
   },
   {
+    id: "a3bf1e2c-1a88-4ebc-9e33-d05a496fc0aa",
     title: "Sahara Museum",
     description: [
       "Sahara Museum is a demo project and a work in progress.",
@@ -56,5 +59,6 @@ export const projects: Project[] = [
         linkText: "live project",
       },
     ],
+    starProject: false,
   },
 ]

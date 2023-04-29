@@ -2,6 +2,7 @@ import { Project as ProjectI } from "../../../types/Project"
 import { Badge } from "../../common/Badge"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { Video } from "../../common/Video"
+import { BsFillStarFill } from "react-icons/bs"
 import styles from "./Project.module.css"
 
 interface Props {
@@ -9,10 +10,13 @@ interface Props {
 }
 
 export const Project = ({ project }: Props) => {
-  const { title, badges, description, repos, video } = project
+  const { title, badges, description, repos, video, starProject } = project
 
   return (
     <div className={styles.root}>
+      {starProject && (
+        <BsFillStarFill className={styles.star} color='#FFBF00' />
+      )}
       <h2>{title}</h2>
       <div className={styles.description}>
         <div>
