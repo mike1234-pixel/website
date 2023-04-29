@@ -27,7 +27,8 @@ export const Home = () => {
           solutions that drive successful outcomes.
         </p>
         <HyperLink to='/gallery' internalLink>
-          Click through to my gallery to discover more about me personally
+          Explore my gallery for a glimpse into my personal interests and
+          experiences
         </HyperLink>
       </Section>
       <Section
@@ -47,7 +48,7 @@ export const Home = () => {
         </p>
         <p>
           <HyperLink to='/experience' internalLink alt>
-            Click through for a breakdown of my professional experience
+            Click through for an overview of my professional experience
           </HyperLink>
         </p>
       </Section>

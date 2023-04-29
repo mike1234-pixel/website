@@ -3,7 +3,7 @@ import { Project } from "../../types/Project"
 export const projects: Project[] = [
   {
     id: "e72d01a1-1776-4c6f-9716-fc10e968b239",
-    title: "JobSprint (2023)",
+    title: "JobSprint",
     description: [
       "JobSprint is my most recent personal project that uses React.",
       "Having built various management consoles with React in commercial settings; I used those skills to build my own.",
