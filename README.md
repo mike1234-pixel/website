@@ -63,6 +63,6 @@ This portfolio was built with:
 
 ## Contact
 
-If you have any questions or comments, feel free to contact me at `your-email@example.com`.
+If you have any questions or comments, feel free to contact me at `miketandy@protonmail.com`.
 
 Sure! Here's an updated credits section for the README file that includes PhotoSwipe, Video.js, and CSS Modules:

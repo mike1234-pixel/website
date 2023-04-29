@@ -3,6 +3,7 @@ import { Container } from "../../common/Container"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { PageHeading } from "../../common/PageHeading"
 import { Job } from "../../features/Job"
+import cv from "../../../assets/cv/mike-tandy-cv-2023.pdf"
 import styles from "./Experience.module.css"
 
 export const Experience = () => {
@@ -18,7 +19,7 @@ export const Experience = () => {
             </div>
           )
         })}
-        <HyperLink to='#'>Download my cv</HyperLink>
+        <HyperLink to={cv}>Download my cv</HyperLink>
       </Container>
     </div>
   )
