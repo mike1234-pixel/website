@@ -13,7 +13,7 @@ export const Home = () => {
         <h2>About</h2>
         <p>
           Hello there, I'm Michael (or Mike), a frontend software engineer who
-          specializes in React.js.
+          specializes in React.
         </p>
         <p>
           I bring a visual and creative approach to my work, which is rooted in

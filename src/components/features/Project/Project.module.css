@@ -46,3 +46,9 @@
   top: 30px;
   right: 30px;
 }
+
+@media (max-width: 575px) {
+  .star {
+    display: none;
+  }
+}

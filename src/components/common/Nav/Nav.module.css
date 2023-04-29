@@ -7,6 +7,7 @@
   top: 0;
   transition: padding 0.2s ease-in-out;
   z-index: 9999;
+  border-bottom: 1px solid var(--purple-1);
 }
 
 @media (min-width: 768px) {

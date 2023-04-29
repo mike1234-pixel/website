@@ -11,6 +11,13 @@ export const Experience = () => {
     <div className={styles.root}>
       <Container>
         <PageHeading title='Experience' longLetter={true} />
+        <div className={styles.intro}>
+          <p>
+            Welcome to my experience page, where I share my career journey and
+            expertise gained over the years. Below are some highlights of my
+            recent professional experience.
+          </p>
+        </div>
         {jobs.map((job) => {
           const { id } = job
           return (

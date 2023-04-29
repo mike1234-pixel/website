@@ -10,7 +10,7 @@ export const Hero = () => {
 
           <p>
             I am a Frontend Sofware Engineer specialising in{" "}
-            <strong>React.js</strong>, with professional experience spanning a{" "}
+            <strong>React</strong>, with professional experience spanning a{" "}
             <strong>broad range of organisations</strong>, including agencies,
             startups, and big companies.
           </p>
