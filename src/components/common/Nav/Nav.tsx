@@ -4,9 +4,9 @@ import { Container } from "../../common/Container"
 import { Link } from "react-router-dom"
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
-import styles from "./Nav.module.css"
 import { LinkItem } from "./LinkItem"
 import { SocialLink } from "./SocialLink"
+import styles from "./Nav.module.css"
 
 export const Nav = () => {
   const [navClosed, setNavClosed] = useState<boolean>(true)
@@ -41,10 +41,10 @@ export const Nav = () => {
             )}
             onClick={() => setNavClosed(true)}
           >
-            <LinkItem to='/'>Home</LinkItem>
-            <LinkItem to='/experience'>Experience</LinkItem>
-            <LinkItem to='/projects'>Projects</LinkItem>
-            <LinkItem to='/skills'>Skills</LinkItem>
+            <LinkItem to='/'>home</LinkItem>
+            <LinkItem to='/experience'>experience</LinkItem>
+            <LinkItem to='/projects'>projects</LinkItem>
+            <LinkItem to='/skills'>skills</LinkItem>
             <SocialLink to='https://github.com/mike1234-pixel'>
               <BsGithub />
             </SocialLink>

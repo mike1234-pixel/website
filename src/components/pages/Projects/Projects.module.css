@@ -2,6 +2,12 @@
   padding: 160px 0 40px;
 }
 
+@media (max-width: 991px) {
+  .root {
+    padding: 190px 0 0;
+  }
+}
+
 .root h2 {
   margin-bottom: 30px;
 }
