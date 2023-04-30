@@ -12,7 +12,7 @@ export const Home = () => {
       <Section
         img={michael2}
         altText='Michael Tandy - Software Engineer'
-        title='About'
+        title='about'
       >
         <p>
           Hello there, I'm Michael (or Mike), a frontend software engineer who
@@ -38,7 +38,7 @@ export const Home = () => {
         img={michael3}
         altText='Michael Tandy - Software Engineer'
         altLayout
-        title='Experience'
+        title='experience'
       >
         <p>
           I have worked on a broad range of projects professionally and

@@ -61,6 +61,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+  text-align: left;
 }
 
 .text p {

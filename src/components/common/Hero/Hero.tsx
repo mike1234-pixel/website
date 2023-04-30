@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className={styles.root}>
       <Container>
         <div className={styles.text}>
-          <h1 className={styles.title}>Frontend Software Engineer</h1>
+          <h1 className={styles.title}>frontend software engineer</h1>
 
           <p>
             I am a Frontend Sofware Engineer specialising in{" "}
