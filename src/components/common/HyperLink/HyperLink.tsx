@@ -1,6 +1,7 @@
 import { ReactNode } from "react"
 import { Link } from "react-router-dom"
-import { GoArrowSmallRight } from "react-icons/go"
+import { GoArrowSmallDown, GoArrowSmallRight } from "react-icons/go"
+import classNames from "classnames"
 import styles from "./HyperLink.module.css"
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
   alt?: boolean
   internalLink?: boolean
   arrow?: boolean
+  downloadLink?: boolean
 }
 
 export const HyperLink = ({
@@ -17,6 +19,7 @@ export const HyperLink = ({
   alt,
   internalLink,
   arrow,
+  downloadLink,
 }: Props) => {
   const className = alt ? styles.rootAlt : styles.root
 
@@ -25,7 +28,11 @@ export const HyperLink = ({
       <Link to={to} className={className}>
         <span className={styles.content}>
           <span>{children}</span>{" "}
-          {arrow && <GoArrowSmallRight className={styles.arrow} />}
+          {arrow && (
+            <GoArrowSmallRight
+              className={classNames(styles.arrow, styles.arrowRight)}
+            />
+          )}
         </span>
       </Link>
     )
@@ -34,7 +41,16 @@ export const HyperLink = ({
     <a href={to} className={className} target='_blank' rel='noreferrer'>
       <span className={styles.content}>
         <span>{children}</span>{" "}
-        {arrow && <GoArrowSmallRight className={styles.arrow} />}
+        {arrow && (
+          <GoArrowSmallRight
+            className={classNames(styles.arrow, styles.arrowRight)}
+          />
+        )}
+        {downloadLink && (
+          <GoArrowSmallDown
+            className={classNames(styles.arrowDown, styles.arrow)}
+          />
+        )}
       </span>
     </a>
   )

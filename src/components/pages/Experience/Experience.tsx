@@ -28,7 +28,9 @@ export const Experience = () => {
               </div>
             )
           })}
-          <HyperLink to={cv}>Download my cv</HyperLink>
+          <HyperLink to={cv} downloadLink>
+            Download my cv
+          </HyperLink>
         </Container>
       </div>
     </Layout>

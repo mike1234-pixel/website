@@ -34,7 +34,12 @@
   transition: all 0.2s;
 }
 
-.root:hover .arrow,
-.rootAlt:hover .arrow {
+.root:hover .arrowRight,
+.rootAlt:hover .arrowRight {
   right: -10px;
+}
+
+.root:hover .arrowDown,
+.rootAlt:hover .arrowDown {
+  top: 12px;
 }

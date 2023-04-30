@@ -16,7 +16,7 @@
   content: "";
   background: var(--dark);
   position: absolute;
-  top: 290px;
+  top: 295px;
   left: 0;
   width: calc(50vw - 600px);
   height: 1px;
