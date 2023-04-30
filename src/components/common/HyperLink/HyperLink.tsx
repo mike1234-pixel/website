@@ -24,7 +24,8 @@ export const HyperLink = ({
     return (
       <Link to={to} className={className}>
         <span className={styles.content}>
-          {children} {arrow && <GoArrowSmallRight className={styles.arrow} />}
+          <span>{children}</span>{" "}
+          {arrow && <GoArrowSmallRight className={styles.arrow} />}
         </span>
       </Link>
     )
@@ -32,7 +33,8 @@ export const HyperLink = ({
   return (
     <a href={to} className={className} target='_blank' rel='noreferrer'>
       <span className={styles.content}>
-        {children} {arrow && <GoArrowSmallRight className={styles.arrow} />}
+        <span>{children}</span>{" "}
+        {arrow && <GoArrowSmallRight className={styles.arrow} />}
       </span>
     </a>
   )

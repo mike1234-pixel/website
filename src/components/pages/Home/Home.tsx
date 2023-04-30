@@ -9,8 +9,11 @@ export const Home = () => {
   return (
     <div className={styles.root}>
       <Hero />
-      <Section img={michael2} altText='Michael Tandy - Software Engineer'>
-        <h2>About</h2>
+      <Section
+        img={michael2}
+        altText='Michael Tandy - Software Engineer'
+        title='About'
+      >
         <p>
           Hello there, I'm Michael (or Mike), a frontend software engineer who
           specializes in React.
@@ -19,7 +22,7 @@ export const Home = () => {
           I bring a visual and creative approach to my work, which is rooted in
           my love of illustration. Outside of coding, I'm passionate about
           exploring the world through travel and learning new languages (I'm
-          currently learning Persian for Iranian fiancée).
+          currently learning Persian for my Iranian fiancée).
         </p>{" "}
         <p>
           With experience in both startups and big companies, I prioritize
@@ -35,8 +38,8 @@ export const Home = () => {
         img={michael3}
         altText='Michael Tandy - Software Engineer'
         altLayout
+        title='Experience'
       >
-        <h2>Experience</h2>
         <p>
           I have worked on a broad range of projects professionally and
           personally in a range of organisation types.
@@ -52,8 +55,10 @@ export const Home = () => {
           </HyperLink>
         </p>
       </Section>
-      <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
-        <h2>Projects</h2>
+      <Section
+        video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'
+        title='projects'
+      >
         <p>
           Here, you'll find some of the web development projects that I've
           worked on outside of my professional work.

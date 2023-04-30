@@ -11,6 +11,7 @@ interface SectionProps {
   children: ReactNode | ReactNode[]
   altLayout?: boolean
   video?: string
+  title: string
 }
 
 export const Section = ({
@@ -19,10 +20,12 @@ export const Section = ({
   children,
   altLayout,
   video,
+  title,
 }: SectionProps) => {
   return (
     <section className={altLayout ? styles.rootAlt : styles.root}>
       <Container>
+        <h2>{title}</h2>
         <div
           className={
             altLayout ? classNames(styles.grid, styles.gridAlt) : styles.grid
