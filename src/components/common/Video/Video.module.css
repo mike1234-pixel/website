@@ -1,4 +1,4 @@
 .root {
   width: 100%;
-  border: 6px outset var(--purple-1);
+  border: 6px outset var(--theme-color-1);
 }

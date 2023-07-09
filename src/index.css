@@ -15,9 +15,10 @@
   --action: #0087ff;
   --action-dark: #0066be;
   --action-alt: #bffd8b;
-  --purple-1: #a987ff;
-  --purple-2: #cebbff;
-  --purple-3: #6e2cb5;
+  --theme-color-1: #a987ff;
+  --theme-color-2: #cebbff;
+  --theme-color-3: #6e2cb5;
+  --theme-color-4: rgba(235, 135, 255, 0.15);
   /* backgrounds */
   --bg-primary: linear-gradient(
     232deg,
@@ -83,6 +84,35 @@
   --badge-6-text: rgb(95, 0, 95);
   /* fonts */
   --font-primary: "Plus Jakarta Sans", sans-serif;
+  --background-pattern: repeating-linear-gradient(
+      135deg,
+      var(--white) 0px,
+      var(--white) 28px,
+      transparent 28px,
+      transparent 36px
+    ),
+    repeating-linear-gradient(
+      225deg,
+      var(--white) 0px,
+      var(--white) 28px,
+      transparent 28px,
+      transparent 36px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      var(--theme-color-4) 0px,
+      var(--theme-color-4) 29px,
+      transparent 29px,
+      transparent 102px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--theme-color-4) 0px,
+      var(--theme-color-4) 29px,
+      transparent 29px,
+      transparent 102px
+    ),
+    linear-gradient(351deg, var(--white), var(--white));
   cursor: url("./assets/cursors/cursor-default.png"), auto;
 }
 

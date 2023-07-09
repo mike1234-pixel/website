@@ -1,6 +1,6 @@
 .root {
   padding: 15px 0;
-  background: var(--purple-3);
+  background: var(--theme-color-3);
   color: var(--white);
 }
 

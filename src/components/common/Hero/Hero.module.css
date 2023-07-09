@@ -42,9 +42,9 @@
   padding: 20px;
   z-index: 1;
   width: 70%;
-  color: var(--purple-1);
+  color: var(--theme-color-1);
   background: rgba(255, 255, 255, 0.9);
-  border: 6px outset var(--purple-1);
+  border: 6px outset var(--theme-color-1);
   text-align: justify;
 }
 
