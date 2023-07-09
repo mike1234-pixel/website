@@ -1,4 +1,5 @@
 import { Container } from "../Container"
+
 import styles from "./Hero.module.css"
 
 export const Hero = () => {
@@ -7,7 +8,6 @@ export const Hero = () => {
       <Container>
         <div className={styles.text}>
           <h1 className={styles.title}>frontend software engineer</h1>
-
           <p>
             I am a Frontend Sofware Engineer specialising in{" "}
             <strong>React</strong>, with professional experience spanning a{" "}

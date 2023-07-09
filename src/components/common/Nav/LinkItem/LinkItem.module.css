@@ -1,3 +1,4 @@
 .activeLink {
   text-decoration: underline;
+  pointer-events: none;
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom"
 import { Nav } from "./components/common/Nav"
 import { Home } from "./components/pages/Home"
 import { Skills } from "./components/pages/Skills"
@@ -11,14 +11,16 @@ import { NotFound } from "./components/pages/NotFound"
 import { Footer } from "./components/common/Footer"
 import { ScrollToTop } from "./components/common/ScrollToTop"
 import { CookiesNotification } from "./components/common/CookiesNotification"
+import { TransitionGroup, CSSTransition } from "react-transition-group"
+import "./App.css"
 
-function App() {
+const RoutesWithTransition = () => {
+  const location = useLocation()
+
   return (
-    <div>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Nav />
-        <Routes>
+    <TransitionGroup>
+      <CSSTransition key={location.key} classNames='flip' timeout={500}>
+        <Routes location={location}>
           <Route path='/' element={<Home />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
@@ -28,6 +30,18 @@ function App() {
           <Route path='/cookies' element={<Cookies />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
+      </CSSTransition>
+    </TransitionGroup>
+  )
+}
+
+const App = () => {
+  return (
+    <div>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Nav />
+        <RoutesWithTransition />
         <Footer />
         <CookiesNotification />
       </BrowserRouter>
