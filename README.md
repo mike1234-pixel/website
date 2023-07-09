@@ -17,7 +17,7 @@ git clone https://github.com/mike1234-pixel/website.git
 2. Install dependencies:
 
 ```bash
-cd my-professional-portfolio
+cd website
 npm install
 ```
 
@@ -33,7 +33,7 @@ npm start
 
 ## Data
 
-The data for the portfolio is stored in the `data` directory under `src`. The data is organized into separate JSON files for each section.
+The site doesn't warrant a backend so the data for the portfolio is stored in the `data` directory under `src`. The data is organized into separate JSON files for each section.
 
 ## Deployment
 
@@ -64,5 +64,3 @@ This portfolio was built with:
 ## Contact
 
 If you have any questions or comments, feel free to contact me at `miketandy@protonmail.com`.
-
-Sure! Here's an updated credits section for the README file that includes PhotoSwipe, Video.js, and CSS Modules:
