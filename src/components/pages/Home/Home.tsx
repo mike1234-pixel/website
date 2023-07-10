@@ -5,15 +5,19 @@ import michael3 from "../../../assets/michael-tandy/3.jpg"
 import styles from "./Home.module.css"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { ParallaxBanner } from "react-scroll-parallax"
-import desert from "../../../assets/banners/desert.jpeg"
-import leaf from "../../../assets/banners/leaf.jpeg"
 
 export const Home = () => {
   return (
     <div className={styles.root}>
       <Hero />
       <ParallaxBanner
-        layers={[{ image: desert, speed: 30 }]}
+        layers={[
+          {
+            image:
+              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/desert.jpeg",
+            speed: 30,
+          },
+        ]}
         className={styles.banner}
       >
         <Section img={michael2} altText='Michael Tandy - Software Engineer'>
@@ -64,7 +68,13 @@ export const Home = () => {
       </Section>
 
       <ParallaxBanner
-        layers={[{ image: leaf, speed: 30 }]}
+        layers={[
+          {
+            image:
+              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/leaf.jpeg",
+            speed: 30,
+          },
+        ]}
         className={styles.banner}
       >
         <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
