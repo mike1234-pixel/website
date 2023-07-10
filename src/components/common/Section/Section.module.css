@@ -11,10 +11,6 @@
   }
 }
 
-.root {
-  background-image: var(--background-pattern);
-}
-
 .rootAlt {
   background: var(--bg-primary);
   background-attachment: fixed;

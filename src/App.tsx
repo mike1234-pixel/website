@@ -12,6 +12,7 @@ import { Footer } from "./components/common/Footer"
 import { ScrollToTop } from "./components/common/ScrollToTop"
 import { CookiesNotification } from "./components/common/CookiesNotification"
 import { TransitionGroup, CSSTransition } from "react-transition-group"
+import { ParallaxProvider } from "react-scroll-parallax"
 import "./App.css"
 
 const RoutesWithTransition = () => {
@@ -38,13 +39,15 @@ const RoutesWithTransition = () => {
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Nav />
-        <RoutesWithTransition />
-        <Footer />
-        <CookiesNotification />
-      </BrowserRouter>
+      <ParallaxProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Nav />
+          <RoutesWithTransition />
+          <Footer />
+          <CookiesNotification />
+        </BrowserRouter>
+      </ParallaxProvider>
     </div>
   )
 }

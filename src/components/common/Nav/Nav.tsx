@@ -29,10 +29,8 @@ export const Nav = () => {
       <Container>
         <div className={styles.content}>
           <div className={styles.logo}>
-            <Link to='/'>
-              <p>Michael Tandy</p>
-              <p>Professional Portfolio</p>
-            </Link>
+            <p>Michael Tandy</p>
+            <p>Professional Portfolio</p>
           </div>
           <ul
             className={classNames(
