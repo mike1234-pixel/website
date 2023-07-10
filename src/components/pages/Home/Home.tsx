@@ -14,7 +14,7 @@ export const Home = () => {
         layers={[
           {
             image:
-              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/desert.jpeg",
+              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bg-sun.jpg",
             speed: 30,
           },
         ]}
@@ -37,7 +37,7 @@ export const Home = () => {
             working collaboratively and communicating transparently to find
             solutions that drive successful outcomes.
           </p>
-          <HyperLink to='/gallery' internalLink arrow>
+          <HyperLink to='/gallery' internalLink alt arrow>
             Explore my gallery for a glimpse into my personal interests and
             experiences
           </HyperLink>
@@ -71,11 +71,11 @@ export const Home = () => {
         layers={[
           {
             image:
-              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/leaf.jpeg",
+              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bg4.jpg",
             speed: 30,
           },
         ]}
-        className={styles.banner}
+        className={styles.banner2}
       >
         <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
           <h2>projects</h2>
@@ -93,7 +93,7 @@ export const Home = () => {
             video demos for each project.
           </p>
           <p>
-            <HyperLink to='/projects' internalLink arrow>
+            <HyperLink to='/projects' internalLink alt arrow>
               Click through to explore and watch the demos to see these projects
               in action
             </HyperLink>

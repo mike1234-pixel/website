@@ -1,4 +1,9 @@
 .banner > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten;
+  background-color: rgba(169, 23, 227, 0.6);
+  background-blend-mode: multiply;
+}
+
+.banner2 > div {
+  background-color: rgba(169, 23, 227, 0.8);
+  background-blend-mode: darken;
 }
