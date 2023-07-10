@@ -1,7 +1,6 @@
 import classNames from "classnames"
 import { useEffect, useState } from "react"
 import { Container } from "../../common/Container"
-import { Link } from "react-router-dom"
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import { LinkItem } from "./LinkItem"
