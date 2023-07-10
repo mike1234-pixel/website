@@ -5,8 +5,8 @@ import michael3 from "../../../assets/michael-tandy/3.jpg"
 import styles from "./Home.module.css"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { ParallaxBanner } from "react-scroll-parallax"
-import desert from "./desert.jpeg"
-import leaf from "./leaf.jpeg"
+import desert from "../../../assets/banners/desert.jpeg"
+import leaf from "../../../assets/banners/leaf.jpeg"
 
 export const Home = () => {
   return (
