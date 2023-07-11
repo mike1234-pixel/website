@@ -29,7 +29,7 @@ export const Nav = () => {
         <div className={styles.content}>
           <div className={styles.logo}>
             <p>Michael Tandy</p>
-            <p>Professional Portfolio</p>
+            <p>Software Engineer</p>
           </div>
           <ul
             className={classNames(

@@ -29,7 +29,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 50vw;
+  width: 30vw;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -43,7 +43,7 @@
   z-index: 1;
   width: 70%;
   color: var(--theme-color-1);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1);
   border: 6px outset var(--theme-color-1);
   text-align: justify;
 }
@@ -118,4 +118,9 @@
     width: 100%;
     top: 65px;
   }
+}
+
+.banner > div {
+  background-color: rgba(122, 0, 166, 0.8);
+  background-blend-mode: luminosity;
 }
