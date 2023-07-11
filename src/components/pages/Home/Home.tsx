@@ -1,7 +1,7 @@
 import { Hero } from "../../common/Hero"
 import { Section } from "../../common/Section"
-import michael2 from "../../../assets/michael-tandy/2.jpg"
-import michael3 from "../../../assets/michael-tandy/3.jpg"
+import laptop from "../../../assets/banners/laptop.png"
+import office from "../../../assets/banners/office.png"
 import styles from "./Home.module.css"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { ParallaxBanner } from "react-scroll-parallax"
@@ -20,7 +20,7 @@ export const Home = () => {
         ]}
         className={styles.banner}
       >
-        <Section img={michael2} altText='Michael Tandy - Software Engineer'>
+        <Section img={laptop} altText='Michael Tandy - Software Engineer'>
           <h2>about</h2>
           <p>I specialise in frontend development with a focus on React.</p>
           <p>
@@ -38,7 +38,7 @@ export const Home = () => {
       </ParallaxBanner>
 
       <Section
-        img={michael3}
+        img={office}
         altText='Michael Tandy - Software Engineer'
         altLayout
       >
