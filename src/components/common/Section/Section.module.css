@@ -37,6 +37,12 @@
   right: 0;
 }
 
+.root ul,
+.rootAlt ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 60% 40%;

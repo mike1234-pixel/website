@@ -5,8 +5,6 @@ export const projects: Project[] = [
     id: "e72d01a1-1776-4c6f-9716-fc10e968b239",
     title: "JobSprint",
     description: [
-      "JobSprint is my most recent personal project that uses React.",
-      "Having built various management consoles with React in commercial settings; I used those skills to build my own.",
       "JobSprint uses React Query to fetch and mutate data from a GoLang/Postgres backend so that users are able to efficiently organise their job search.",
       "I have recorded a demo for the project and the repositories can be found on Github.",
     ],
@@ -42,9 +40,9 @@ export const projects: Project[] = [
     id: "a3bf1e2c-1a88-4ebc-9e33-d05a496fc0aa",
     title: "Sahara Museum",
     description: [
-      "Sahara Museum is a demo project and a work in progress.",
       "The aim of the project is to use VR technology to create an educational experience integrated into a navigable website.",
       "Sahara Museum offers an interactive environment where users can learn about the people, culture, history and geography of the Sahara Desert.",
+      "The purpose of the project is to learn more about webVR and creating 3D experiences.",
     ],
     video:
       "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/sahara-museum-demo.mp4",

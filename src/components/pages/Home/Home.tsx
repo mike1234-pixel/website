@@ -22,24 +22,17 @@ export const Home = () => {
       >
         <Section img={michael2} altText='Michael Tandy - Software Engineer'>
           <h2>about</h2>
+          <p>I specialise in frontend development with a focus on React.</p>
           <p>
-            Hello there, I'm Michael (or Mike), a frontend software engineer who
-            specializes in React.
+            I bring a visual and creative approach to my work, which stems from
+            my interest in design.
           </p>
           <p>
-            I bring a visual and creative approach to my work, which is rooted
-            in my love of illustration. Outside of coding, I'm passionate about
-            exploring the world through travel and learning new languages (I'm
-            currently learning Persian for my Iranian fiancée).
-          </p>{" "}
-          <p>
-            With experience in both startups and big companies, I prioritize
-            working collaboratively and communicating transparently to find
-            solutions that drive successful outcomes.
+            I have experience in a range of company types and adapt quickly to
+            new technologies and processes.
           </p>
           <HyperLink to='/gallery' internalLink alt arrow>
-            Explore my gallery for a glimpse into my personal interests and
-            experiences
+            More about me
           </HyperLink>
         </Section>
       </ParallaxBanner>
@@ -50,19 +43,19 @@ export const Home = () => {
         altLayout
       >
         <h2>experience</h2>
-
+        <p>I have worked on range of projects in varied environments.</p>
         <p>
-          I have worked on a broad range of projects professionally and
-          personally in a range of organisation types.
-        </p>
-        <p>
-          These projects span from website builds and ecommerce, to my more
-          recent professional work developing management consoles at Ori and
-          Avayler (a Halfords Group company).
+          These projects have included:
+          <ul>
+            <li>Commerical Websites</li>
+            <li>E-commerce sites</li>
+            <li>Cloud platforms</li>
+            <li>Work and scheduling management platforms</li>
+          </ul>
         </p>
         <p>
           <HyperLink to='/experience' internalLink alt arrow>
-            Click through for an overview of my professional experience
+            View my professional experience
           </HyperLink>
         </p>
       </Section>
@@ -79,23 +72,17 @@ export const Home = () => {
       >
         <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
           <h2>projects</h2>
-
           <p>
-            Here, you'll find some of the web development projects that I've
-            worked on outside of my professional work.
+            Alongside my professional work I have designed and built personal
+            projects to broaden my skills and knowledge.
           </p>
           <p>
-            Each project is unique, and I approach each one with fresh ideas and
-            attention to detail.
-          </p>
-          <p>
-            In the projects page, you'll find a selection of my work, along with
-            video demos for each project.
+            In this section you can find a selection of my favourite personal
+            projects.
           </p>
           <p>
             <HyperLink to='/projects' internalLink alt arrow>
-              Click through to explore and watch the demos to see these projects
-              in action
+              View my projects
             </HyperLink>
           </p>
         </Section>
