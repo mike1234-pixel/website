@@ -2,15 +2,33 @@ import { Container } from "../Container"
 import { ParallaxBanner } from "react-scroll-parallax"
 
 import styles from "./Hero.module.css"
+import { useEffect, useState } from "react"
 
 export const Hero = () => {
+  const [scaleValue, setScaleValue] = useState<any>([-0.3, 2, "easeInOutCirc"])
+
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth
+      const newScaleValue = screenWidth > 767 ? -0.3 : 0.3
+      setScaleValue([newScaleValue, 2, "easeInOutCirc"])
+    }
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize)
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
   return (
     <ParallaxBanner
       layers={[
         {
           image:
             "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bg23.jpg",
-          scale: [-0.3, 2, "easeInOutCirc"],
+          scale: scaleValue,
         },
       ]}
       className={styles.banner}
