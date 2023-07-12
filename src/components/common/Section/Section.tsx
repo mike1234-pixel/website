@@ -1,4 +1,3 @@
-// import Fade from "react-reveal/Fade"
 import { ReactNode } from "react"
 import { Container } from "../Container"
 import classNames from "classnames"
@@ -42,9 +41,8 @@ export const Section = ({
                 : styles.image
             }
           >
-            {/* <Fade bottom> */}
-            {video ? <Video src={video} /> : <img src={img} alt={altText} />}
-            {/* </Fade> */}
+            {video && <Video src={video} />}
+            {img && <img src={img} alt={altText} />}
           </div>
         </div>
       </Container>

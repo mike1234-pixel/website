@@ -23,7 +23,7 @@
   background-color: var(--dark);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .hamburger {
     display: none;
   }

@@ -5,6 +5,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { Hamburger } from "../Hamburger"
 import { LinkItem } from "./LinkItem"
 import { SocialLink } from "./SocialLink"
+import logo from "../../../assets/misc/logo.png"
 import styles from "./Nav.module.css"
 
 export const Nav = () => {
@@ -17,7 +18,7 @@ export const Nav = () => {
     })
 
     window.addEventListener("resize", () => {
-      if (window.innerWidth >= 767) {
+      if (window.innerWidth >= 991) {
         setNavClosed(true)
       }
     })
@@ -28,8 +29,7 @@ export const Nav = () => {
       <Container>
         <div className={styles.content}>
           <div className={styles.logo}>
-            <p>Michael Tandy</p>
-            <p>Software Engineer</p>
+            <img src={logo} alt='Michael Tandy - Software Engineer' />
           </div>
           <ul
             className={classNames(

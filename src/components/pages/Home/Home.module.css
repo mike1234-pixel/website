@@ -4,6 +4,11 @@
 }
 
 .banner2 > div {
+  background-color: rgb(105, 3, 146);
+  background-blend-mode: saturation;
+}
+
+.banner3 > div {
   background-color: rgba(169, 23, 227, 0.8);
   background-blend-mode: darken;
 }

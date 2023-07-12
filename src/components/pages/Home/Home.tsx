@@ -1,7 +1,5 @@
 import { Hero } from "../../common/Hero"
 import { Section } from "../../common/Section"
-import laptop from "../../../assets/banners/laptop.png"
-import office from "../../../assets/banners/office.png"
 import styles from "./Home.module.css"
 import { HyperLink } from "../../common/HyperLink/HyperLink"
 import { ParallaxBanner } from "react-scroll-parallax"
@@ -20,7 +18,7 @@ export const Home = () => {
         ]}
         className={styles.banner}
       >
-        <Section img={laptop} altText='Michael Tandy - Software Engineer'>
+        <Section>
           <h2>about</h2>
           <p>I specialise in frontend development with a focus on React.</p>
           <p>
@@ -36,30 +34,33 @@ export const Home = () => {
           </HyperLink>
         </Section>
       </ParallaxBanner>
-
-      <Section
-        img={office}
-        altText='Michael Tandy - Software Engineer'
-        altLayout
+      <ParallaxBanner
+        layers={[
+          {
+            image:
+              "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bg77.jpg",
+            speed: -30,
+          },
+        ]}
+        className={styles.banner2}
       >
-        <h2>experience</h2>
-        <p>I have worked on range of projects in varied environments.</p>
-        <p>
-          These projects have included:
+        <Section>
+          <h2>experience</h2>
+          <p>I have worked on range of projects in varied environments.</p>
+          <p>These projects have included:</p>
           <ul>
             <li>Commerical Websites</li>
             <li>E-commerce sites</li>
             <li>Cloud platforms</li>
             <li>Work and scheduling management platforms</li>
           </ul>
-        </p>
-        <p>
-          <HyperLink to='/experience' internalLink alt arrow>
-            View my professional experience
-          </HyperLink>
-        </p>
-      </Section>
-
+          <p>
+            <HyperLink to='/experience' internalLink alt arrow>
+              View my professional experience
+            </HyperLink>
+          </p>
+        </Section>
+      </ParallaxBanner>
       <ParallaxBanner
         layers={[
           {
@@ -68,7 +69,7 @@ export const Home = () => {
             speed: 30,
           },
         ]}
-        className={styles.banner2}
+        className={styles.banner3}
       >
         <Section video='https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4'>
           <h2>projects</h2>
