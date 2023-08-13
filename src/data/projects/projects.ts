@@ -2,6 +2,39 @@ import { Project } from "../../types/Project"
 
 export const projects: Project[] = [
   {
+    id: "e72d01a1-1776-4c6f-9716-fc10e968b26666",
+    title: "Persian Paradise - Farsi language learning app",
+    description: [
+      "Persian Paradise offers English speakers a simple entry point into learning Farsi, and reinforces learning through repetition.",
+      "My fiancé is Iranian, so I developed this app to improve my own language skills. I hope to develop this project into a more comprehensive learning platform.",
+    ],
+    video:
+      "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/persian-paradise-demo.mp4",
+    badges: [
+      "React",
+      "TypeScript",
+      "React Query",
+      "Ant Design",
+      "Express",
+      "MongoDB",
+    ],
+    repos: [
+      {
+        link: "https://github.com/mike1234-pixel/persian-paradise",
+        linkText: "frontend repository",
+      },
+      {
+        link: "https://github.com/mike1234-pixel/persian-paradise-api",
+        linkText: "backend repository",
+      },
+      {
+        link: "https://main.d1g6gfkibxvw76.amplifyapp.com/",
+        linkText: "live project",
+      },
+    ],
+    starProject: false,
+  },
+  {
     id: "e72d01a1-1776-4c6f-9716-fc10e968b239",
     title: "JobSprint",
     description: [

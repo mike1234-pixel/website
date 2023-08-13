@@ -46,13 +46,15 @@ export const Home = () => {
       >
         <Section>
           <h2>experience</h2>
-          <p>I have worked on range of projects in varied environments.</p>
-          <p>These projects have included:</p>
+          <p>
+            I have worked on a wide range of projects during my career,
+            including:
+          </p>
           <ul>
+            <li>Work and scheduling management platforms</li>
+            <li>Cloud platforms</li>
             <li>Commerical Websites</li>
             <li>E-commerce sites</li>
-            <li>Cloud platforms</li>
-            <li>Work and scheduling management platforms</li>
           </ul>
           <p>
             <HyperLink to='/experience' internalLink alt arrow>

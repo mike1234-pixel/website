@@ -8,21 +8,9 @@
   text-decoration: underline;
 }
 
-@media (max-width: 991px) {
-  .rootAlt {
-    color: var(--dark);
-  }
-}
-
 .root:hover,
 .root:focus,
 .root:active {
-  color: var(--action-dark);
-}
-
-.rootAlt:hover,
-.rootAlt:focus,
-.rootAlt:active {
   color: var(--action-dark);
 }
 
