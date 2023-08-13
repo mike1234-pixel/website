@@ -4,7 +4,7 @@ This is my professional portfolio built with React and TypeScript.
 
 ## Description
 
-This portfolio showcases my skills and experience as a developer. The data is stored in the `data` directory under `src`. The portfolio contains several sections including Projects, Skills, Experience and Gallery (About Me).
+This portfolio showcases my skills and experience as a developer. The portfolio contains several sections including Projects, Skills, Experience and Gallery (About Me).
 
 ## Installation
 
@@ -30,10 +30,6 @@ npm start
 ```
 
 2. Open [http://localhost:3000](http://localhost:3000) in a browser to view the portfolio.
-
-## Data
-
-The site doesn't warrant a backend so the data for the portfolio is stored in the `data` directory under `src`. The data is organized into separate JSON files for each section.
 
 ## Deployment
 
