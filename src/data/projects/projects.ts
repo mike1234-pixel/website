@@ -32,14 +32,14 @@ export const projects: Project[] = [
         linkText: "live project",
       },
     ],
-    starProject: false,
+    starProject: true,
   },
   {
     id: "e72d01a1-1776-4c6f-9716-fc10e968b239",
     title: "JobSprint",
     description: [
       "JobSprint uses React Query to fetch and mutate data from a GoLang/Postgres backend so that users are able to efficiently organise their job search.",
-      "I have recorded a demo for the project and the repositories can be found on Github.",
+      "I had the idea for this app when conducting my own job search. I wanted to better organise my own job applications.",
     ],
     video:
       "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/jobsprint-demo.mp4",
@@ -71,6 +71,29 @@ export const projects: Project[] = [
   },
   {
     id: "a3bf1e2c-1a88-4ebc-9e33-d05a496fc0aa",
+    title: "City Walks",
+    description: [
+      "One of my older projects, City Walks is a website that provides illustrated guided walks.",
+      "The app was inspired by a deck of walking guides I used when I was a student in London.",
+      "Illustrations by me!",
+    ],
+    video:
+      "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/city-walks-demo.mp4",
+    badges: ["React", "Redux", "TypeScript", "Axios"],
+    repos: [
+      {
+        link: "https://github.com/mike1234-pixel/city-walks-client",
+        linkText: "repository",
+      },
+      {
+        link: "https://main.d183hahqtfof2i.amplifyapp.com/",
+        linkText: "live project",
+      },
+    ],
+    starProject: false,
+  },
+  {
+    id: "a3bf1e2c-1a88-4ebc-9e33-d05a496fc0bb",
     title: "Sahara Museum",
     description: [
       "The aim of the project is to use VR technology to create an educational experience integrated into a navigable website.",
