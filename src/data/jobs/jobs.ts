@@ -18,7 +18,7 @@ export const jobs: Job[] = [
   {
     id: "1928ce9e-7a87-48d3-8e58-3e3c768ed2f1",
     title: "Software Engineer",
-    company: "Ori",
+    company: "Ori Industries",
     dates: "08/2022 - 01/2023",
     overview:
       "Worked on the company's main product, Ori Global Cloud - DevOps software that deploys applications to multiple cloud environments.",
