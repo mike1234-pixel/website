@@ -30,10 +30,6 @@
   gap: 7px;
 }
 
-.location {
-  font-size: 2rem;
-}
-
 .list li:not(:last-of-type) {
   display: block;
   margin-bottom: 16px;

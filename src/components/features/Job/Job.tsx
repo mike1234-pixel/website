@@ -1,8 +1,8 @@
-import { Job as JobI } from "../../../types/Job"
-import styles from "./Job.module.css"
+import { Job as JobI } from "../../../types/Job";
+import styles from "./Job.module.css";
 
 interface Props {
-  job: JobI
+  job: JobI;
 }
 
 export const Job = ({ job }: Props) => {
@@ -14,7 +14,7 @@ export const Job = ({ job }: Props) => {
     technologies,
     responsibilities,
     achievements,
-  } = job
+  } = job;
   return (
     <div className={styles.root}>
       <h2>{title}</h2>
@@ -25,15 +25,15 @@ export const Job = ({ job }: Props) => {
           <strong>Overview:</strong> {overview}
         </li>
         <li>
-          <strong>Technologies:</strong> {technologies}
-        </li>
-        <li>
           <strong>Responsibilities:</strong> {responsibilities}
         </li>
         <li>
           <strong>Achievements:</strong> {achievements}
         </li>
+        <li>
+          <strong>Technologies:</strong> {technologies}
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};

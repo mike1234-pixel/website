@@ -1,28 +1,28 @@
-import classNames from "classnames"
-import { useEffect, useState } from "react"
-import { Container } from "../../common/Container"
-import { BsGithub, BsLinkedin } from "react-icons/bs"
-import { Hamburger } from "../Hamburger"
-import { LinkItem } from "./LinkItem"
-import { SocialLink } from "./SocialLink"
-import logo from "../../../assets/misc/logo.png"
-import styles from "./Nav.module.css"
+import classNames from "classnames";
+import { useEffect, useState } from "react";
+import { Container } from "../../common/Container";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { Hamburger } from "../Hamburger";
+import { LinkItem } from "./LinkItem";
+import { SocialLink } from "./SocialLink";
+import logo from "../../../assets/misc/logo.png";
+import styles from "./Nav.module.css";
 
 export const Nav = () => {
-  const [navClosed, setNavClosed] = useState<boolean>(true)
-  const [scroll, setScroll] = useState<boolean>(false)
+  const [navClosed, setNavClosed] = useState<boolean>(true);
+  const [scroll, setScroll] = useState<boolean>(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 2)
-    })
+      setScroll(window.scrollY > 2);
+    });
 
     window.addEventListener("resize", () => {
       if (window.innerWidth >= 991) {
-        setNavClosed(true)
+        setNavClosed(true);
       }
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <nav className={classNames(styles.nav, scroll && styles.navScroll)}>
@@ -55,5 +55,5 @@ export const Nav = () => {
         </div>
       </Container>
     </nav>
-  )
-}
+  );
+};

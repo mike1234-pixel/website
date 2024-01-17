@@ -1,11 +1,11 @@
-import { jobs } from "../../../data/jobs"
-import { Container } from "../../common/Container"
-import { HyperLink } from "../../common/HyperLink/HyperLink"
-import { PageHeading } from "../../common/PageHeading"
-import { Job } from "../../features/Job"
-import { Layout } from "../../common/Layout"
-import cv from "../../../assets/cv/mike-tandy-cv-2023.pdf"
-import styles from "./Experience.module.css"
+import { jobs } from "../../../data/jobs";
+import { Container } from "../../common/Container";
+import { HyperLink } from "../../common/HyperLink/HyperLink";
+import { PageHeading } from "../../common/PageHeading";
+import { Job } from "../../features/Job";
+import { Layout } from "../../common/Layout";
+import cv from "../../../assets/cv/michael-tandy-cv.pdf";
+import styles from "./Experience.module.css";
 
 export const Experience = () => {
   return (
@@ -21,12 +21,12 @@ export const Experience = () => {
             </p>
           </div>
           {jobs.map((job) => {
-            const { id } = job
+            const { id } = job;
             return (
               <div key={id}>
                 <Job job={job} />
               </div>
-            )
+            );
           })}
           <HyperLink to={cv} downloadLink>
             Download my cv
@@ -34,5 +34,5 @@ export const Experience = () => {
         </Container>
       </div>
     </Layout>
-  )
-}
+  );
+};

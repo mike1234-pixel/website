@@ -4,7 +4,7 @@ export interface Job {
   company: string
   dates: string
   overview: string
-  technologies: string
   responsibilities: string
   achievements: string
+  technologies: string
 }

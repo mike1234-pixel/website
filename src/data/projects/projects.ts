@@ -27,10 +27,10 @@ export const projects: Project[] = [
         link: "https://github.com/mike1234-pixel/persian-paradise-api",
         linkText: "backend repository",
       },
-      {
-        link: "https://main.d1g6gfkibxvw76.amplifyapp.com/",
-        linkText: "live project",
-      },
+      // {
+      //   link: "https://main.d1g6gfkibxvw76.amplifyapp.com/",
+      //   linkText: "live project",
+      // },
     ],
     starProject: true,
   },
@@ -85,10 +85,10 @@ export const projects: Project[] = [
         link: "https://github.com/mike1234-pixel/city-walks-client",
         linkText: "repository",
       },
-      {
-        link: "https://main.d183hahqtfof2i.amplifyapp.com/",
-        linkText: "live project",
-      },
+      // {
+      //   link: "https://main.d183hahqtfof2i.amplifyapp.com/",
+      //   linkText: "live project",
+      // },
     ],
     starProject: false,
   },
@@ -108,10 +108,10 @@ export const projects: Project[] = [
         link: "https://github.com/mike1234-pixel/sahara-museum",
         linkText: "repository",
       },
-      {
-        link: "https://mike1234-pixel.github.io/sahara-museum/",
-        linkText: "live project",
-      },
+      // {
+      //   link: "https://mike1234-pixel.github.io/sahara-museum/",
+      //   linkText: "live project",
+      // },
     ],
     starProject: false,
   },
