@@ -39,6 +39,11 @@
     rgba(188, 0, 255, 1) 0%,
     rgba(255, 137, 250, 1) 77%
   );
+  --text-gradient-light: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgba(255, 137, 250, 1) 77%
+  );
   /* badge colors */
   --badge-1-bg: linear-gradient(
     27deg,

@@ -1,7 +1,7 @@
 import { LegacyRef } from "react"
 import { Gallery, Item } from "react-photoswipe-gallery"
 import { photos } from "../../../data/gallery"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-reveal"
 import "photoswipe/dist/photoswipe.css"
 import styles from "./LightboxGallery.module.css"
 import "./LightboxGallery.css"

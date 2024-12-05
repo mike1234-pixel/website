@@ -1,15 +1,15 @@
-import { Container } from "../Container";
-import { CopyFooter } from "../CopyFooter";
-import { MdOutlineLocationOn, MdOutlineEmail } from "react-icons/md";
-import { BsTelephone, BsGithub } from "react-icons/bs";
-import { BiGitRepoForked } from "react-icons/bi";
-import { GrDocumentUser } from "react-icons/gr";
-import { FaSitemap } from "react-icons/fa";
-import { LinkItem } from "../Nav/LinkItem";
-import { SocialLink } from "../Nav/SocialLink";
-import { Link } from "react-router-dom";
-import classNames from "classnames";
-import styles from "./Footer.module.css";
+import { Container } from "../Container"
+import { CopyFooter } from "../CopyFooter"
+import { MdOutlineLocationOn, MdOutlineEmail } from "react-icons/md"
+import { BsTelephone, BsGithub } from "react-icons/bs"
+import { BiGitRepoForked } from "react-icons/bi"
+import { GrDocumentUser } from "react-icons/gr"
+import { FaSitemap } from "react-icons/fa"
+import { LinkItem } from "../Nav/LinkItem"
+import { SocialLink } from "../Nav/SocialLink"
+import { Link } from "react-router-dom"
+import classNames from "classnames"
+import styles from "./Footer.module.css"
 
 export const Footer = () => {
   return (
@@ -26,7 +26,6 @@ export const Footer = () => {
                 <LinkItem to='/experience'>Experience</LinkItem>
                 <LinkItem to='/projects'>Projects</LinkItem>
                 <LinkItem to='/skills'>Skills</LinkItem>
-                <LinkItem to='/gallery'>Gallery</LinkItem>
               </ul>
             </div>
             <div>
@@ -90,5 +89,5 @@ export const Footer = () => {
       </section>
       <CopyFooter />
     </footer>
-  );
-};
+  )
+}

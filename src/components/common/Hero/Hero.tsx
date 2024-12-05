@@ -8,8 +8,16 @@ export const Hero = () => {
       layers={[
         {
           image:
-            "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bg23.jpg",
-          speed: -30,
+            "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/stars.jpg",
+          speed: 40,
+        },
+        {
+          image:
+            "https://portfolio-demos-1.s3.eu-west-2.amazonaws.com/bgmount1.png",
+          speed: -10,
+          translateY: [0, 0.2],
+          scale: [1, 1.2, "easeOutCubic"],
+          shouldAlwaysCompleteAnimation: true,
         },
       ]}
       className={styles.banner}
@@ -17,20 +25,13 @@ export const Hero = () => {
       <section className={styles.root}>
         <Container>
           <div className={styles.text}>
-            <h1 className={styles.title}>Welcome To My Portfolio</h1>
-            <p>
-              I am a Sofware Engineer specialising in <strong>React</strong>,
-              with professional experience spanning a{" "}
-              <strong>broad range of organisations</strong>.
-            </p>
-            <p>
-              I prioritise working <strong>collaboratively</strong> to find
-              solutions, and I strive to contribute my skills and expertise. I
-              have experience working in <strong>Agile</strong> environments and
-              value{" "}
-              <strong>flexibility, transparency, and communication</strong> to
-              ensure successful outcomes.
-            </p>
+            <h1 className={styles.title}>
+              <span>Senior </span>
+              <span>Frontend </span>
+              <span>Software </span>
+              <span>Engineer</span>
+            </h1>
+            <h2>Experience in a broad range of sectors</h2>
           </div>
         </Container>
         <div className={styles.bgImage}></div>

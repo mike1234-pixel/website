@@ -14,7 +14,7 @@
 
 .root::after {
   content: "";
-  background: var(--dark);
+  background: var(--white);
   position: absolute;
   top: 295px;
   left: 0;
@@ -23,11 +23,11 @@
 }
 
 .bgImage {
-  background-image: url("../../../assets/michael-tandy/me1.jpg");
-  background-color: rgba(86, 0, 125, 0.6);
+  background-image: url("../../../assets/misc/me.jpg");
+  background-color: rgba(86, 0, 125, 0.2);
   background-blend-mode: overlay;
   background-size: cover;
-  background-position: 66%;
+  background-position: right;
   height: 100vh;
   width: 30vw;
   background-repeat: no-repeat;
@@ -43,9 +43,9 @@
   z-index: 1;
   width: 70%;
   color: var(--theme-color-1);
-  background: rgba(255, 255, 255, 1);
   border: 6px outset var(--theme-color-1);
   text-align: justify;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
@@ -55,13 +55,16 @@
   }
 }
 
-.text h1 {
+.text :where(h1, h2) {
   color: var(--dark);
-  background: var(--text-gradient);
+  background: var(--text-gradient-light);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 900;
   text-align: left;
+}
+
+.text h1 {
+  font-weight: 900;
 }
 
 .text p {
@@ -121,6 +124,14 @@
 }
 
 .banner > div {
-  background-color: rgba(122, 0, 166, 0.8);
+  background-color: rgba(122, 0, 166, 0.5);
   background-blend-mode: luminosity;
+}
+
+.text {
+  h1,
+  h2,
+  h3 {
+    color: red;
+  }
 }
